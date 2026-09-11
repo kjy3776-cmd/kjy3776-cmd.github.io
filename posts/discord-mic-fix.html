@@ -17,6 +17,8 @@
   <meta name="twitter:description" content="디스코드 마이크 안됨 해결 체크리스트 7단계. 윈도우 마이크 권한, 기본 장치, Discord 음성 설정, 독점 모드, 관리자 실행, 음성 서비스 재설치, 방화벽까지 순서대로 점검하세요.">
   <meta name="keywords" content="Discord, 마이크, Windows, 음성, 권한">
   <link rel="stylesheet" href="/assets/site.css">
+<meta name="google-adsense-account" content="ca-pub-1328779882408752">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328779882408752" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="site-header">
@@ -31,7 +33,7 @@
       <div class="search-wrap">
         <label class="visually-hidden" for="site-search">검색</label>
         <input type="search" id="site-search" class="search-input" placeholder="검색…" autocomplete="off">
-        <div id="search-results" class="search-results" role="listbox"></div>
+        <div id="search-results" class="search-results" aria-live="polite"></div>
       </div>
     </nav>
   </div>
@@ -49,10 +51,8 @@
       <span class="tag">Discord</span> <span class="tag">마이크</span> <span class="tag">Windows</span> <span class="tag">음성</span> <span class="tag">권한</span>
     </div>
   </header>
-  <!-- AdSense: 상단 광고 슬롯 (publisher ID 삽입 후 활성화)
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
--->
-<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
+  
+
   <div class="post-body">
 
 <nav class="toc" aria-label="목차">
@@ -79,21 +79,21 @@
     <tr><td>갑자기 끊김·로봇 소리</td><td>드라이버·독점 모드·USB 절전</td></tr>
   </tbody>
 </table>
-<p class="screenshot-ph">[스크린샷: Discord 음성 설정 — 입력 장치와 입력 감도 막대가 움직이지 않는 상태]</p>
+
 <p>이 글 범위: <strong>Windows + Discord 데스크톱 앱</strong> 기준. (브라우저 Discord도 비슷하지만 사이트 권한을 추가로 봐야 합니다.)</p>
 
-<h2 id="quick">2. 30초 퀵 체크 (설정 만지기 전에)</h2>
+<figure class="guide-figure"><picture><source media="(max-width: 600px)" srcset="/assets/discord-guide-mobile.svg" width="400" height="490"><img src="/assets/discord-guide.svg" width="800" height="420" alt="Windows 입력 유무에 따라 Discord 문제를 좁히는 진단 순서" loading="lazy"></picture><figcaption>설명용 도식 · 실제 앱 화면 캡처가 아닙니다.</figcaption></figure><h2 id="quick">2. 30초 퀵 체크 (설정 만지기 전에)</h2>
 <ol>
   <li><strong>헤드셋/마이크가 꽂혀 있는지</strong> — USB면 다른 포트, 3.5mm면 헤드셋·마이크 단자 구분</li>
-  <li><strong>Discord 서버/채널 음소거</strong> — 서버 목록 하단 마이크 아이콘, 채널 우클릭 음소거 해제</li>
+  <li><strong>Discord 서버/채널 음소거</strong> — 내 프로필 옆 마이크·헤드셋 아이콘을 확인합니다. 서버 관리자가 음소거한 경우에는 관리자에게 해제를 요청합니다.</li>
   <li><strong>푸시투톡</strong> — 키를 안 누르고 말하면 “안 되는 것처럼” 보임 → 잠시 음성 활동으로 바꿔 테스트</li>
   <li><strong>Windows 자체 녹음 테스트</strong> — 설정 → 시스템 → 소리 → 입력에서 말해 보기</li>
   <li><strong>최근 변경</strong> — 윈도우 업데이트, 새 헤드셋, VPN·방화벽 앱 설치 여부</li>
 </ol>
 <p>Windows 입력 막대가 움직이면 → <strong>3단계(Discord 설정)부터</strong>. 안 움직이면 → <strong>1~2단계부터</strong>.</p>
 
-<!-- AdSense: 본문 중간 광고 슬롯 -->
-<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
+
+
 
 <h2 id="steps">3. 체크리스트 7단계</h2>
 
@@ -103,10 +103,10 @@
   <li><strong>마이크</strong> 메뉴 진입</li>
   <li>마이크 액세스 = 켜기</li>
   <li>앱이 마이크에 액세스하도록 허용 = 켜기</li>
-  <li>목록에서 Discord가 있으면 개별적으로 켜기</li>
+  <li><strong>데스크톱 앱이 마이크에 액세스하도록 허용</strong>도 켭니다. 데스크톱 Discord는 앱별 토글 목록에 없을 수 있습니다.</li>
   <li>Discord를 완전히 종료 후 재실행 (트레이 아이콘 우클릭 → 종료)</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: Windows 설정 — 마이크 액세스 / 앱 액세스 허용 화면]</p>
+
 <p>브라우저로 discord.com을 쓰면, 주소창의 사이트 권한에서 마이크 허용도 확인하세요.</p>
 
 <h3>2단계: 기본 입력 장치·물리 연결 확인</h3>
@@ -114,24 +114,24 @@
   <li>Windows 설정 → 시스템 → 소리 → 입력</li>
   <li>입력 장치 드롭다운에서 실제 쓰는 마이크/헤드셋을 선택</li>
   <li>말하면서 입력 볼륨 막대가 움직이는지 확인</li>
-  <li>장치가 여러 개면(모니터 HDMI, 웹캠 마이크, Realtek 등) 엉뚱한 장치가 기본인지 확인</li>
+  <li>장치가 여러 개면(웹캠 마이크, USB 마이크, Realtek 입력 등) 엉뚱한 장치가 기본인지 확인</li>
   <li>상세: <code>mmsys.cpl</code> 실행 → 녹음 탭 → 사용할 장치 우클릭 → 기본 장치로 설정</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: mmsys.cpl 녹음 탭 — 기본 장치 설정]</p>
-<p class="screenshot-ph">[스크린샷: Windows 소리 설정 입력 볼륨 테스트]</p>
+
+
 <p>USB 헤드셋 팁: 뽑았다가 다시 꽂고, USB 허브 대신 메인보드 포트에 직접 연결해 보세요.</p>
 
 <h3>3단계: Discord 음성·동영상 설정</h3>
 <ol>
   <li>Discord 좌측 하단 톱니바퀴 → 사용자 설정</li>
-  <li>앱 설정 → 음성 및 동영상</li>
+  <li>앱 설정 → 음성 및 동영상 → 음성(Voice) 탭</li>
   <li>입력 장치를 Windows에서 확인한 그 장치로 수동 지정 («기본값»이 꼬인 경우가 많음)</li>
   <li>입력 감도 — 자동이 과하면 끄고 슬라이더를 조정해 테스트</li>
   <li>마이크 테스트 켜고 입력 막대 확인</li>
   <li>노이즈 억제 / 에코 제거 / 자동 이득을 잠시 모두 끄고 재테스트</li>
   <li>푸시투톡이면 단축키가 다른 앱과 겹치지 않는지 확인</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: Discord 음성 및 동영상 — 입력 장치·감도·마이크 테스트]</p>
+
 <p>서버 하단 마이크/헤드셋 음소거 해제, 채널 말하기 권한도 한 번 더 확인하세요.</p>
 
 <h3>4단계: 독점 모드(Exclusive Mode) 끄기</h3>
@@ -142,31 +142,23 @@
   <li>«독점 모드인 응용 프로그램의 우선 순위 지정»도 해제</li>
   <li>확인 후 Discord 재시작</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: 마이크 속성 고급 — 독점 모드 체크 해제]</p>
 
-<h3>5단계: Discord를 관리자 권한으로 / 권한 충돌 정리</h3>
-<ol>
-  <li>Discord 트레이 종료 후, 바로가기 우클릭 → 관리자 권한으로 실행 → 마이크 테스트</li>
-  <li>반대로, 항상 관리자로 켜고 있었다면 관리자 없이 실행해 보기</li>
-  <li>게임도 관리자, Discord도 비관리자면 권한 레벨이 달라 입력이 이상해질 수 있음 → 둘 다 같게 (가능하면 둘 다 일반 권한)</li>
-</ol>
-<p class="screenshot-ph">[스크린샷: Discord 바로가기 — 관리자 권한으로 실행]</p>
 
-<h3>6단계: Discord 음성 서비스 초기화·재설치에 가까운 조치</h3>
+<h3>5단계: 게임 중에만 문제가 생기는지 확인</h3><p>게임을 종료한 상태에서 먼저 테스트합니다. 푸시투톡 키가 게임에서만 작동하지 않는다면 단축키와 실행 권한 차이를 확인하세요. 일반 권한으로 실행하는 것을 기본으로 하고, 필요한 경우에만 Discord를 관리자 권한으로 한 번 실행해 비교합니다. 권한 변경은 Windows의 마이크 허용 설정을 대신하지 않습니다.</p><h3>6단계: Discord 음성 서비스 초기화·재설치에 가까운 조치</h3>
 <p><strong>6-A. 빠른 조치</strong> — 음성 채널 나가기→재입장, Discord 완전 종료 후 재실행, 필요 시 <code>services.msc</code>에서 Windows Audio가 실행 중인지 확인.</p>
-<p><strong>6-B. 음성 파이프라인 리셋</strong> — 사용자 설정 → 음성 및 동영상에서 음성 처리 초기화류 옵션 사용, 하드웨어 가속 끄기 후 재시작.</p>
+<p><strong>6-B. 음성 설정 초기화</strong> — 사용자 설정 → 음성 및 동영상 → 디버깅(Debugging) → Reset Voice and Video Settings를 찾습니다. 초기화 전에 입력 장치·감도·푸시투톡 설정을 기록하세요. 초기화 후 다시 지정하고 테스트합니다.</p>
 <p><strong>6-C. 앱 재설치</strong> — Discord 완전 종료 → 설정 → 앱에서 제거 → 공식 사이트에서 재설치 → 입력 장치·감도 다시 수동 지정.</p>
-<p class="screenshot-ph">[스크린샷: Discord 제거 후 재설치 — 설정 앱 목록]</p>
+
 <blockquote><p><code>%appdata%\discord</code> 폴더를 지우는 초기화는 효과적이지만 로컬 설정이 날아갑니다. 필요 시 폴더를 통째로 백업한 뒤 삭제하세요. 비밀번호·토큰을 외부에 공유하지 마세요.</p></blockquote>
 
 <h3>7단계: 방화벽·보안 소프트웨어·VPN</h3>
 <ol>
-  <li>Windows 보안 → 방화벽 → 앱 허용에서 Discord(개인·공용) 허용</li>
+  <li>연결 오류가 있을 때만 Windows 보안 → 방화벽 → 앱 허용에서 Discord 차단 여부를 확인합니다. 필요한 네트워크 유형만 허용하고 방화벽 전체를 끄지 않습니다.</li>
   <li>백신·방화벽 제품이 Discord를 차단하지 않는지 확인</li>
   <li>VPN·학교/회사 네트워크면 음성 UDP가 막힐 수 있음 → VPN 끄고 테스트</li>
   <li>서버 음성 지역이 이상하면 핑이 높아 끊김으로 “안 들림”처럼 느껴질 수 있음</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: Windows 방화벽 — Discord 앱 허용]</p>
+
 
 <h2 id="fail">4. 그래도 안 될 때</h2>
 <table>
@@ -179,7 +171,7 @@
     <tr><td>노트북 내장 마이크만 됨</td><td>헤드셋이 기본 장치가 아님 — 2단계 재확인</td></tr>
   </tbody>
 </table>
-<p class="screenshot-ph">[스크린샷: 장치 관리자 — 오디오 입력 및 출력 장치 목록]</p>
+
 <p>블루투스 헤드셋의 Hands-Free 프로필은 음질·마이크가 제한적인 경우가 많습니다. 가능하면 USB 동글·유선으로 분리 테스트하세요.</p>
 
 <h2 id="faq">5. FAQ</h2>
@@ -190,23 +182,18 @@
 <h3>Q. “Discord needs access to your microphone” 문구가 뜹니다.</h3>
 <p>1단계 마이크 개인정보 허용 후 앱을 완전히 종료했다가 다시 켜세요.</p>
 <h3>Q. 오버레이를 끄면 나아지나요?</h3>
-<p>가끔 있습니다. 게임 오버레이·하드웨어 가속을 끄고 재테스트해 볼 가치는 있습니다.</p>
+<p>게임 중에만 생기는 문제라면 오버레이를 꺼 비교할 수 있습니다. 마이크 입력 자체가 없는 경우에는 먼저 입력 장치와 권한을 확인하세요.</p>
 <h3>Q. 모바일 디스코드는요?</h3>
 <p>폰 설정 → 앱 → Discord → 마이크 권한을 확인하세요. 이 글은 PC(Windows) 중심입니다.</p>
 
 <h2>한 줄 요약</h2>
-<p><strong>OS 마이크 권한 → 기본 입력 장치 → Discord 입력 장치·감도 → 독점 모드 해제 → 관리자 권한 맞추기 → 음성 초기화/재설치 → 방화벽·VPN.</strong><br>
-이 순서대로 가면 대부분의 디스코드 마이크 안됨은 원인 구간이 드러납니다.</p>
-
-  </div>
-  <!-- AdSense: 하단 광고 슬롯 -->
-<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
-  <aside class="related">
+<p><strong>OS 마이크 권한 → 기본 입력 장치 → Discord 입력 장치·감도 → 독점 모드 해제 → 게임·단축키 충돌 확인 → 음성 초기화/재설치 → 방화벽·VPN.</strong><br>
+이 순서대로 가면 대부분의 디스코드 마이크 안됨은 원인 구간이 드러납니다.</p><section class="sources"><h2>확인한 공식 자료</h2><p>문서 확인: 2026-09-11. 앱 버전에 따라 메뉴 위치와 번역이 달라질 수 있습니다.</p><ul><li><a href="https://support.microsoft.com/en-us/windows/privacy/turn-on-app-permissions-for-your-microphone-in-windows">Microsoft: 마이크 앱 권한</a></li><li><a href="https://support.discord.com/hc/en-us/articles/360045138471-Discord-Voice-and-Video-Troubleshooting-Guide">Discord: 음성·영상 문제해결</a></li></ul></section></div><aside class="related">
     <h2>관련 글</h2>
     
 <ul>
-  <li><a href="/posts/obs-black-screen.html">OBS 검은화면 나올 때 고치는 법 <span class="badge-soon">예정</span></a></li>
-  <li><a href="/posts/chrome-memory.html">크롬 메모리 사용량 줄이는 방법 <span class="badge-soon">예정</span></a></li>
+  
+  
   <li><a href="/posts/excel-blank-rows.html">엑셀 빈 행 한 번에 삭제하는 3가지 방법</a></li>
 </ul>
 
@@ -222,12 +209,13 @@
       <a href="https://www.innerapple.com">www.innerapple.com</a>
     </div>
     <div class="footer-links">
+      <a href="/privacy.html">광고·개인정보 안내</a>
       <a href="/">홈</a>
       <a href="/#categories">분류</a>
       <a href="/#latest">최신글</a>
       <a href="/#planned">예정 글</a>
     </div>
-    <p class="footer-copy">© 막힘해결 · 익명 니치 가이드. 제휴·광고 표기는 각 글에 명시합니다.</p>
+    <p class="footer-copy">© 막힘해결 · PC·프로그램 도움말. 제휴·광고 표기는 각 글에 명시합니다.</p>
   </div>
 </footer>
 <script src="/assets/site.js" defer></script>

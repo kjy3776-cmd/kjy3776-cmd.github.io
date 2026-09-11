@@ -8,7 +8,7 @@
       status: "live"
     },
     {
-      title: "아이폰 HEIC를 JPG로 바꾸는 방법 5가지",
+      title: "HEIC를 JPG로 변환하는 무료 방법: PC 일괄 변환·iCloud",
       url: "/posts/heic-jpg-convert.html",
       tags: ["HEIC", "JPG", "아이폰", "변환", "Windows", "사진"],
       status: "live"
@@ -72,6 +72,7 @@
     if (!q) return [];
     var parts = q.split(" ").filter(Boolean);
     return POSTS.filter(function (p) {
+      if (p.status !== "live") return false;
       var hay = normalize(p.title + " " + p.tags.join(" "));
       return parts.every(function (part) {
         return hay.indexOf(part) !== -1;

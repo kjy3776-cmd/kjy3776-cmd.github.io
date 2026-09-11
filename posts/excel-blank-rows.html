@@ -17,6 +17,8 @@
   <meta name="twitter:description" content="엑셀 빈 행 삭제 방법 3가지를 정리했습니다. 이동 옵션(빈 셀), 필터로 공백 행 삭제, COUNTA 도우미 열까지 단계별로 따라하면 한 번에 정리됩니다. Microsoft 365·Excel 2021 기준.">
   <meta name="keywords" content="엑셀, 빈 행, 이동 옵션, 필터, COUNTA">
   <link rel="stylesheet" href="/assets/site.css">
+<meta name="google-adsense-account" content="ca-pub-1328779882408752">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328779882408752" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="site-header">
@@ -31,7 +33,7 @@
       <div class="search-wrap">
         <label class="visually-hidden" for="site-search">검색</label>
         <input type="search" id="site-search" class="search-input" placeholder="검색…" autocomplete="off">
-        <div id="search-results" class="search-results" role="listbox"></div>
+        <div id="search-results" class="search-results" aria-live="polite"></div>
       </div>
     </nav>
   </div>
@@ -49,10 +51,8 @@
       <span class="tag">엑셀</span> <span class="tag">빈 행</span> <span class="tag">이동 옵션</span> <span class="tag">필터</span> <span class="tag">COUNTA</span>
     </div>
   </header>
-  <!-- AdSense: 상단 광고 슬롯 (publisher ID 삽입 후 활성화)
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
--->
-<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
+  
+
   <div class="post-body">
 
 <nav class="toc" aria-label="목차">
@@ -77,9 +77,9 @@
   <li><strong>핵심 열이 비어 있음</strong> — 예: A열(이름)만 비어 있고 옆 열에 수식·서식만 남아 있음</li>
 </ul>
 <p>후자는 “빈 행처럼 보이지만” 실제로는 값이 있는 셀이 섞여 있을 수 있습니다. 그래서 <strong>한 열만 보고 삭제</strong>할지, <strong>행 전체를 보고 삭제</strong>할지부터 정하는 것이 중요합니다.</p>
-<p class="screenshot-ph">[스크린샷: 빈 행이 섞인 표 예시 — A~D열, 3·7·12행이 비어 있음]</p>
 
-<h2 id="quick">2. 30초 퀵 체크 (삭제 전에 이것만)</h2>
+
+<figure class="guide-figure"><picture><source media="(max-width: 600px)" srcset="/assets/excel-guide-mobile.svg" width="400" height="490"><img src="/assets/excel-guide.svg" width="800" height="420" alt="빈 행 삭제 기준과 COUNTA 및 보이는 셀 선택 순서" loading="lazy"></picture><figcaption>설명용 도식 · 실제 앱 화면 캡처가 아닙니다.</figcaption></figure><h2 id="quick">2. 30초 퀵 체크 (삭제 전에 이것만)</h2>
 <ol>
   <li><strong>원본 백업</strong> — <kbd>Ctrl</kbd>+<kbd>S</kbd>로 저장한 뒤, 파일을 복사하거나 시트를 복제합니다. (시트 탭 우클릭 → 이동/복사 → 복사본 만들기)</li>
   <li><strong>표(테이블)인지 일반 범위인지</strong> — 리본에 <strong>테이블 디자인</strong> 탭이 보이면 Excel 표입니다.</li>
@@ -87,10 +87,10 @@
   <li><strong>보호된 시트</strong> — 검토 → 시트 보호가 켜져 있으면 행 삭제가 막힙니다.</li>
   <li><strong>삭제 기준 열 하나 정하기</strong> — “A열이 비면 그 행은 버린다”처럼 기준을 먼저 정하세요.</li>
 </ol>
-<p>팁: 데이터 안 아무 셀을 클릭한 뒤 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>End</kbd>로 사용 범위 끝까지, 또는 <kbd>Ctrl</kbd>+<kbd>A</kbd>로 현재 영역을 선택합니다.</p>
+<p>빈 행 때문에 자동 선택이 중간에 멈출 수 있습니다. 마지막 데이터 행을 확인한 뒤, 이름 상자에 <code>A1:D100</code>처럼 실제 범위를 직접 입력하세요. 100은 예시이며 본인 데이터 끝 행으로 바꿉니다.</p>
 
-<!-- AdSense: 본문 중간 광고 슬롯 -->
-<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
+
+
 
 <h2 id="m1">3. 방법 1: 이동 옵션(Go To Special)으로 빈 행 한 번에 삭제</h2>
 <p><strong>가장 빠른 방법</strong>입니다. “특정 열의 빈 셀 = 삭제할 행”일 때 특히 잘 맞습니다.</p>
@@ -101,14 +101,14 @@
 </ul>
 <h3>단계</h3>
 <ol>
-  <li>기준 열에서 데이터 구간을 선택합니다. (예: A2 클릭 → <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>↓</kbd>)</li>
+  <li>마지막 데이터 행을 확인하고 이름 상자에 <code>A2:A100</code>처럼 기준 열의 정확한 범위를 입력합니다. 숨긴 행이나 필터가 있다면 복사본에서 먼저 모두 표시합니다.</li>
   <li><kbd>F5</kbd> (또는 <kbd>Ctrl</kbd>+<kbd>G</kbd>) → <strong>이동 옵션</strong> 클릭 — 또는 홈 → 찾기 및 선택 → 이동 옵션</li>
   <li><strong>빈 셀</strong> 선택 → 확인 → 선택한 열 안의 빈 셀만 다중 선택됩니다.</li>
   <li>빈 셀이 선택된 상태에서 행 전체 삭제: <kbd>Ctrl</kbd>+<kbd>-</kbd> 또는 우클릭 → 삭제 → 행 전체</li>
   <li>“행 전체”를 선택하고 확인합니다.</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: 이동 옵션 창에서 ‘빈 셀’ 선택]</p>
-<p class="screenshot-ph">[스크린샷: 빈 셀 선택 후 Ctrl+- 로 행 삭제]</p>
+
+
 <h3>장점 / 주의</h3>
 <table>
   <thead><tr><th>장점</th><th>주의</th></tr></thead>
@@ -118,45 +118,45 @@
     <tr><td>필터를 켜지 않아도 됨</td><td>“행 전체가 완전 공백”만 지우려면 방법 3이 더 안전</td></tr>
   </tbody>
 </table>
-<blockquote><p><strong>팁:</strong> 표 전체를 선택한 채 빈 셀을 찾으면 행 중간 빈 칸까지 잡혀 <strong>열이 찌그러지는</strong> 삭제가 될 수 있습니다. 기준 열 하나만 선택하세요.</p></blockquote>
+<blockquote><p><strong>팁:</strong> 표 전체의 빈 셀을 선택한 뒤 행 전체를 지우면, 일부 셀만 빈 정상 행도 함께 없어질 수 있습니다. 기준 열 하나만 선택하세요.</p></blockquote>
 
 <h2 id="m2">4. 방법 2: 필터로 공백만 보이게 한 뒤 삭제</h2>
 <p>눈으로 확인하면서 지우고 싶을 때, 또는 특정 열의 (비어 있음)만 걸러내고 싶을 때 적합합니다.</p>
 <ol>
-  <li>헤더가 있는 데이터 범위를 선택합니다. (또는 아무 셀에서 <kbd>Ctrl</kbd>+<kbd>A</kbd>)</li>
+  <li>헤더부터 마지막 데이터 행까지 정확한 범위를 선택합니다. 예: 이름 상자에 <code>A1:D100</code> 입력</li>
   <li>데이터 → 필터 (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>)</li>
   <li>기준 열의 필터 드롭다운 ▼ 클릭</li>
   <li><strong>(비어 있음)</strong>만 체크하고 확인</li>
-  <li>보이는 데이터 행을 선택합니다. 헤더 행은 포함하지 마세요.</li>
+  <li>헤더를 제외한 데이터 범위를 선택한 뒤 <kbd>Alt</kbd>+<kbd>;</kbd>로 <strong>보이는 셀만</strong> 선택합니다. 홈 → 찾기 및 선택 → 이동 옵션 → 화면에 보이는 셀만으로도 가능합니다.</li>
   <li>우클릭 → 삭제 → 시트 행 (또는 <kbd>Ctrl</kbd>+<kbd>-</kbd> → 행 전체)</li>
   <li>데이터 → 필터를 다시 눌러 필터를 해제합니다.</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: 필터 메뉴에서 ‘(비어 있음)’ 체크]</p>
-<p class="screenshot-ph">[스크린샷: 필터링된 빈 행 선택 후 행 삭제]</p>
+
+
 <p>Excel 표(테이블)인 경우 필터가 기본으로 켜져 있는 경우가 많고, 행 삭제 시 표 행으로 지워지는 것이 일반적입니다.</p>
 
 <h2 id="m3">5. 방법 3: COUNTA 도우미 열로 “완전 빈 행”만 골라 삭제</h2>
-<p>옆 열에 서식·수식·공백 문자가 남아 있어 겉보기엔 빈 행인데 이동 옵션으로는 안 잡히는 경우가 있습니다. <strong>행 전체가 진짜로 비었는지</strong> 판별한 뒤 지우고 싶을 때 COUNTA가 유용합니다.</p>
+<p>수식이나 공백 문자가 있는 셀은 비어 보이더라도 빈 셀이 아닐 수 있습니다. 서식만 있는 셀은 COUNTA에서 값으로 세지 않습니다. <strong>행 전체가 진짜로 비었는지</strong> 판별한 뒤 지우고 싶을 때 COUNTA가 유용합니다.</p>
 <ol>
   <li>데이터 오른쪽 빈 열에 헤더를 만듭니다. 예: E1에 <code>채움수</code></li>
   <li>첫 데이터 행에 수식 입력 (A~D열이 데이터라고 가정):</li>
 </ol>
 <pre><code>=COUNTA(A2:D2)</code></pre>
 <ol start="3">
-  <li>채우기 핸들로 끝까지 복사 (더블클릭으로 자동 채우기 가능)</li>
-  <li>채움수 열에 필터를 겁니다.</li>
+  <li>E2에 수식을 넣은 뒤 E2:E100처럼 실제 마지막 행까지 선택하고 <kbd>Ctrl</kbd>+<kbd>D</kbd>로 채웁니다. 빈 행 때문에 더블클릭 채우기가 중간에 멈추는 것을 피합니다.</li>
+  <li>헤더와 도우미 열을 포함한 전체 데이터 범위(예: A1:E100)에 필터를 겁니다.</li>
   <li><strong>0</strong>만 표시되도록 필터</li>
-  <li>보이는 행을 삭제 후 필터 해제, 필요 없으면 채움수 열 삭제</li>
+  <li>헤더를 제외한 범위를 선택하고 <kbd>Alt</kbd>+<kbd>;</kbd>로 보이는 셀만 선택합니다. 삭제 대상이 맞는지 확인 후 행을 삭제하고 필터를 해제합니다.</li>
 </ol>
-<p class="screenshot-ph">[스크린샷: E열에 COUNTA 수식과 결과가 0인 행]</p>
-<h3>변형 수식</h3>
+
+<p><strong>COUNTA는 <code>=""</code>처럼 빈 문자열을 반환하는 수식도 셉니다.</strong> 공백 문자도 값으로 셉니다. <code>=COUNTA(A2:D2)</code>는 A~D열만 검사하므로, 다른 열에도 데이터가 있다면 검사 범위에 포함하세요.</p><h3>변형 수식</h3>
 <table>
   <thead><tr><th>목적</th><th>수식 예</th></tr></thead>
   <tbody>
     <tr><td>행 구간 값 개수</td><td><code>=COUNTA(A2:D2)</code></td></tr>
     <tr><td>특정 열만</td><td><code>=COUNTA(A2)</code> 또는 <code>=A2=""</code></td></tr>
     <tr><td>공백 문자까지 비어 있다고 볼 때</td><td><code>=LEN(TRIM(A2))=0</code></td></tr>
-    <tr><td>여러 열이 모두 공백인지</td><td><code>=AND(A2="",B2="",C2="",D2="")</code></td></tr>
+    <tr><td>모든 셀이 빈 셀 또는 빈 문자열인지 (스페이스는 제외)</td><td><code>=AND(A2="",B2="",C2="",D2="")</code></td></tr>
   </tbody>
 </table>
 
@@ -181,7 +181,7 @@
 <h3>Q3. Microsoft 365와 Excel 2021에서 메뉴가 다른가요?</h3>
 <p>핵심 기능(이동 옵션, 필터, COUNTA)은 동일합니다. 찾기 및 선택 / 데이터 → 필터 경로를 기준으로 찾으면 됩니다.</p>
 <h3>Q4. 삭제한 행을 되돌리려면?</h3>
-<p>저장 전이면 <kbd>Ctrl</kbd>+<kbd>Z</kbd>. 이미 저장·닫았다면 백업본이 필요합니다.</p>
+<p>실행 취소 기록이 남아 있으면 <kbd>Ctrl</kbd>+<kbd>Z</kbd>로 복구합니다. 저장 여부만으로 결정되지 않습니다. 파일을 닫았거나 기록이 사라졌다면 백업본 또는 사용 가능한 버전 기록을 확인하세요.</p>
 
 <h2>정리</h2>
 <table>
@@ -192,17 +192,12 @@
     <tr><td>행 전체가 진짜 빈 행인지 판별</td><td>COUNTA 도우미 열</td></tr>
   </tbody>
 </table>
-<p><em>Windows Excel (Microsoft 365 / Excel 2021) 기준. Mac은 단축키가 다를 수 있습니다.</em></p>
-
-  </div>
-  <!-- AdSense: 하단 광고 슬롯 -->
-<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
-  <aside class="related">
+<p><em>Windows Excel (Microsoft 365 / Excel 2021) 기준. Mac은 단축키가 다를 수 있습니다.</em></p><section class="sources"><h2>확인한 공식 자료</h2><p>문서 확인: 2026-09-11. 앱 버전에 따라 메뉴 위치와 번역이 달라질 수 있습니다.</p><ul><li><a href="https://support.microsoft.com/en-us/excel/counta-function">Microsoft: COUNTA 함수</a></li><li><a href="https://support.microsoft.com/en-us/excel/copy-visible-cells-only">Microsoft: 보이는 셀만 선택하기</a></li></ul></section></div><aside class="related">
     <h2>관련 글</h2>
     
 <ul>
-  <li><a href="/posts/excel-vlookup-na.html">엑셀 VLOOKUP #N/A 오류 해결 <span class="badge-soon">예정</span></a></li>
-  <li><a href="/posts/heic-jpg-convert.html">아이폰 HEIC를 JPG로 바꾸는 방법 5가지</a></li>
+  
+  <li><a href="/posts/heic-jpg-convert.html">HEIC를 JPG로 변환하는 무료 방법: PC 일괄 변환·iCloud</a></li>
   <li><a href="/posts/discord-mic-fix.html">디스코드 마이크 안 될 때 체크리스트 7단계</a></li>
 </ul>
 
@@ -218,12 +213,13 @@
       <a href="https://www.innerapple.com">www.innerapple.com</a>
     </div>
     <div class="footer-links">
+      <a href="/privacy.html">광고·개인정보 안내</a>
       <a href="/">홈</a>
       <a href="/#categories">분류</a>
       <a href="/#latest">최신글</a>
       <a href="/#planned">예정 글</a>
     </div>
-    <p class="footer-copy">© 막힘해결 · 익명 니치 가이드. 제휴·광고 표기는 각 글에 명시합니다.</p>
+    <p class="footer-copy">© 막힘해결 · PC·프로그램 도움말. 제휴·광고 표기는 각 글에 명시합니다.</p>
   </div>
 </footer>
 <script src="/assets/site.js" defer></script>
