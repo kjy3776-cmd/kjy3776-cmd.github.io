@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>엑셀 빈 행 한 번에 삭제하는 3가지 방법 (이동 옵션·필터·COUNTA) — 막힘해결</title>
+  <meta name="description" content="엑셀 빈 행 삭제 방법 3가지를 정리했습니다. 이동 옵션(빈 셀), 필터로 공백 행 삭제, COUNTA 도우미 열까지 단계별로 따라하면 한 번에 정리됩니다. Microsoft 365·Excel 2021 기준.">
+  <link rel="canonical" href="https://www.innerapple.com/posts/excel-blank-rows.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="막힘해결">
+  <meta property="og:title" content="엑셀 빈 행 한 번에 삭제하는 3가지 방법 (이동 옵션·필터·COUNTA) — 막힘해결">
+  <meta property="og:description" content="엑셀 빈 행 삭제 방법 3가지를 정리했습니다. 이동 옵션(빈 셀), 필터로 공백 행 삭제, COUNTA 도우미 열까지 단계별로 따라하면 한 번에 정리됩니다. Microsoft 365·Excel 2021 기준.">
+  <meta property="og:url" content="https://www.innerapple.com/posts/excel-blank-rows.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="엑셀 빈 행 한 번에 삭제하는 3가지 방법 (이동 옵션·필터·COUNTA) — 막힘해결">
+  <meta name="twitter:description" content="엑셀 빈 행 삭제 방법 3가지를 정리했습니다. 이동 옵션(빈 셀), 필터로 공백 행 삭제, COUNTA 도우미 열까지 단계별로 따라하면 한 번에 정리됩니다. Microsoft 365·Excel 2021 기준.">
+  <meta name="keywords" content="엑셀, 빈 행, 이동 옵션, 필터, COUNTA">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="/">
+      <span class="logo-name">막힘해결</span>
+      <span class="logo-tag">컴퓨터로 뭔가 하다가 막혔을 때</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="nav-hide-sm" href="/#categories">분류</a>
+      <a class="nav-hide-sm" href="/#latest">최신글</a>
+      <div class="search-wrap">
+        <label class="visually-hidden" for="site-search">검색</label>
+        <input type="search" id="site-search" class="search-input" placeholder="검색…" autocomplete="off">
+        <div id="search-results" class="search-results" role="listbox"></div>
+      </div>
+    </nav>
+  </div>
+</header>
+<main class="main">
+
+<article class="post-wrap">
+  <header class="post-header">
+    <nav class="breadcrumb" aria-label="경로"><a href="/">홈</a> · <a href="/#latest">Excel/Office</a></nav>
+    <h1>엑셀 빈 행 한 번에 삭제하는 3가지 방법 (이동 옵션·필터·COUNTA)</h1>
+    <div class="post-meta">
+      <span>2026-09-11</span>
+      <span>·</span>
+      <span>Excel/Office</span>
+      <span class="tag">엑셀</span> <span class="tag">빈 행</span> <span class="tag">이동 옵션</span> <span class="tag">필터</span> <span class="tag">COUNTA</span>
+    </div>
+  </header>
+  <!-- AdSense: 상단 광고 슬롯 (publisher ID 삽입 후 활성화)
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+-->
+<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
+  <div class="post-body">
+
+<nav class="toc" aria-label="목차">
+  <p class="toc-title">목차</p>
+  <ol>
+    <li><a href="#problem">문제 정의</a></li>
+    <li><a href="#quick">30초 체크</a></li>
+    <li><a href="#m1">방법 1: 이동 옵션</a></li>
+    <li><a href="#m2">방법 2: 필터</a></li>
+    <li><a href="#m3">방법 3: COUNTA</a></li>
+    <li><a href="#fail">안 될 때</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</nav>
+
+<p>엑셀에서 데이터를 붙여 넣거나 CSV를 불러오면 <strong>빈 행</strong>이 군데군데 끼어 있는 경우가 많습니다. 정렬이 꼬이고, 피벗 테이블 범위가 이상해지고, VLOOKUP도 예상과 다르게 동작합니다. 이 글에서는 Windows 엑셀(Microsoft 365 / Excel 2021) 기준으로 <strong>엑셀 빈 행 삭제 방법</strong>을 세 가지로 정리합니다.</p>
+
+<h2 id="problem">1. 문제 정의: “빈 행”이란?</h2>
+<p>여기서 말하는 빈 행은 보통 아래 둘 중 하나입니다.</p>
+<ul>
+  <li><strong>행 전체가 비어 있음</strong> — 모든 셀이 공백</li>
+  <li><strong>핵심 열이 비어 있음</strong> — 예: A열(이름)만 비어 있고 옆 열에 수식·서식만 남아 있음</li>
+</ul>
+<p>후자는 “빈 행처럼 보이지만” 실제로는 값이 있는 셀이 섞여 있을 수 있습니다. 그래서 <strong>한 열만 보고 삭제</strong>할지, <strong>행 전체를 보고 삭제</strong>할지부터 정하는 것이 중요합니다.</p>
+<p class="screenshot-ph">[스크린샷: 빈 행이 섞인 표 예시 — A~D열, 3·7·12행이 비어 있음]</p>
+
+<h2 id="quick">2. 30초 퀵 체크 (삭제 전에 이것만)</h2>
+<ol>
+  <li><strong>원본 백업</strong> — <kbd>Ctrl</kbd>+<kbd>S</kbd>로 저장한 뒤, 파일을 복사하거나 시트를 복제합니다. (시트 탭 우클릭 → 이동/복사 → 복사본 만들기)</li>
+  <li><strong>표(테이블)인지 일반 범위인지</strong> — 리본에 <strong>테이블 디자인</strong> 탭이 보이면 Excel 표입니다.</li>
+  <li><strong>병합 셀</strong> — 제목 행에 병합이 있으면 이동 옵션·필터가 기대와 다르게 동작할 수 있습니다.</li>
+  <li><strong>보호된 시트</strong> — 검토 → 시트 보호가 켜져 있으면 행 삭제가 막힙니다.</li>
+  <li><strong>삭제 기준 열 하나 정하기</strong> — “A열이 비면 그 행은 버린다”처럼 기준을 먼저 정하세요.</li>
+</ol>
+<p>팁: 데이터 안 아무 셀을 클릭한 뒤 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>End</kbd>로 사용 범위 끝까지, 또는 <kbd>Ctrl</kbd>+<kbd>A</kbd>로 현재 영역을 선택합니다.</p>
+
+<!-- AdSense: 본문 중간 광고 슬롯 -->
+<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
+
+<h2 id="m1">3. 방법 1: 이동 옵션(Go To Special)으로 빈 행 한 번에 삭제</h2>
+<p><strong>가장 빠른 방법</strong>입니다. “특정 열의 빈 셀 = 삭제할 행”일 때 특히 잘 맞습니다.</p>
+<h3>준비</h3>
+<ul>
+  <li>삭제 기준으로 삼을 <strong>한 열</strong>을 선택합니다. (예: A2부터 A열 데이터 끝까지)</li>
+  <li>헤더가 있다면 헤더는 제외하세요.</li>
+</ul>
+<h3>단계</h3>
+<ol>
+  <li>기준 열에서 데이터 구간을 선택합니다. (예: A2 클릭 → <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>↓</kbd>)</li>
+  <li><kbd>F5</kbd> (또는 <kbd>Ctrl</kbd>+<kbd>G</kbd>) → <strong>이동 옵션</strong> 클릭 — 또는 홈 → 찾기 및 선택 → 이동 옵션</li>
+  <li><strong>빈 셀</strong> 선택 → 확인 → 선택한 열 안의 빈 셀만 다중 선택됩니다.</li>
+  <li>빈 셀이 선택된 상태에서 행 전체 삭제: <kbd>Ctrl</kbd>+<kbd>-</kbd> 또는 우클릭 → 삭제 → 행 전체</li>
+  <li>“행 전체”를 선택하고 확인합니다.</li>
+</ol>
+<p class="screenshot-ph">[스크린샷: 이동 옵션 창에서 ‘빈 셀’ 선택]</p>
+<p class="screenshot-ph">[스크린샷: 빈 셀 선택 후 Ctrl+- 로 행 삭제]</p>
+<h3>장점 / 주의</h3>
+<table>
+  <thead><tr><th>장점</th><th>주의</th></tr></thead>
+  <tbody>
+    <tr><td>클릭 몇 번으로 끝</td><td><strong>한 열 기준</strong>이라, 그 열만 비고 옆 열에 값이 있어도 행이 삭제됨</td></tr>
+    <tr><td>키보드로 빠르게 반복 가능</td><td>병합 셀·숨긴 행이 있으면 선택이 어긋날 수 있음</td></tr>
+    <tr><td>필터를 켜지 않아도 됨</td><td>“행 전체가 완전 공백”만 지우려면 방법 3이 더 안전</td></tr>
+  </tbody>
+</table>
+<blockquote><p><strong>팁:</strong> 표 전체를 선택한 채 빈 셀을 찾으면 행 중간 빈 칸까지 잡혀 <strong>열이 찌그러지는</strong> 삭제가 될 수 있습니다. 기준 열 하나만 선택하세요.</p></blockquote>
+
+<h2 id="m2">4. 방법 2: 필터로 공백만 보이게 한 뒤 삭제</h2>
+<p>눈으로 확인하면서 지우고 싶을 때, 또는 특정 열의 (비어 있음)만 걸러내고 싶을 때 적합합니다.</p>
+<ol>
+  <li>헤더가 있는 데이터 범위를 선택합니다. (또는 아무 셀에서 <kbd>Ctrl</kbd>+<kbd>A</kbd>)</li>
+  <li>데이터 → 필터 (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>)</li>
+  <li>기준 열의 필터 드롭다운 ▼ 클릭</li>
+  <li><strong>(비어 있음)</strong>만 체크하고 확인</li>
+  <li>보이는 데이터 행을 선택합니다. 헤더 행은 포함하지 마세요.</li>
+  <li>우클릭 → 삭제 → 시트 행 (또는 <kbd>Ctrl</kbd>+<kbd>-</kbd> → 행 전체)</li>
+  <li>데이터 → 필터를 다시 눌러 필터를 해제합니다.</li>
+</ol>
+<p class="screenshot-ph">[스크린샷: 필터 메뉴에서 ‘(비어 있음)’ 체크]</p>
+<p class="screenshot-ph">[스크린샷: 필터링된 빈 행 선택 후 행 삭제]</p>
+<p>Excel 표(테이블)인 경우 필터가 기본으로 켜져 있는 경우가 많고, 행 삭제 시 표 행으로 지워지는 것이 일반적입니다.</p>
+
+<h2 id="m3">5. 방법 3: COUNTA 도우미 열로 “완전 빈 행”만 골라 삭제</h2>
+<p>옆 열에 서식·수식·공백 문자가 남아 있어 겉보기엔 빈 행인데 이동 옵션으로는 안 잡히는 경우가 있습니다. <strong>행 전체가 진짜로 비었는지</strong> 판별한 뒤 지우고 싶을 때 COUNTA가 유용합니다.</p>
+<ol>
+  <li>데이터 오른쪽 빈 열에 헤더를 만듭니다. 예: E1에 <code>채움수</code></li>
+  <li>첫 데이터 행에 수식 입력 (A~D열이 데이터라고 가정):</li>
+</ol>
+<pre><code>=COUNTA(A2:D2)</code></pre>
+<ol start="3">
+  <li>채우기 핸들로 끝까지 복사 (더블클릭으로 자동 채우기 가능)</li>
+  <li>채움수 열에 필터를 겁니다.</li>
+  <li><strong>0</strong>만 표시되도록 필터</li>
+  <li>보이는 행을 삭제 후 필터 해제, 필요 없으면 채움수 열 삭제</li>
+</ol>
+<p class="screenshot-ph">[스크린샷: E열에 COUNTA 수식과 결과가 0인 행]</p>
+<h3>변형 수식</h3>
+<table>
+  <thead><tr><th>목적</th><th>수식 예</th></tr></thead>
+  <tbody>
+    <tr><td>행 구간 값 개수</td><td><code>=COUNTA(A2:D2)</code></td></tr>
+    <tr><td>특정 열만</td><td><code>=COUNTA(A2)</code> 또는 <code>=A2=""</code></td></tr>
+    <tr><td>공백 문자까지 비어 있다고 볼 때</td><td><code>=LEN(TRIM(A2))=0</code></td></tr>
+    <tr><td>여러 열이 모두 공백인지</td><td><code>=AND(A2="",B2="",C2="",D2="")</code></td></tr>
+  </tbody>
+</table>
+
+<h2 id="fail">6. 안 될 때 / 주의사항</h2>
+<h3>병합된 셀</h3>
+<p>병합 구간이 있으면 빈 셀 선택·행 삭제가 오류를 일으킬 수 있습니다. 홈 → 병합하고 가운데 맞춤을 해제(병합 취소)한 뒤 다시 시도하세요.</p>
+<h3>Excel 표(테이블)</h3>
+<p>빈 행을 정리한 뒤 표 범위가 남는다면 표 디자인 → 크기 조정으로 맞추거나, 표 디자인 → 범위로 변환 후 작업해도 됩니다.</p>
+<h3>보호된 시트</h3>
+<p>검토 → 시트 보호 해제 후 삭제하세요. 비밀번호 우회는 다루지 않습니다.</p>
+<h3>“빈 칸처럼 보이는데” 안 지워질 때</h3>
+<ul>
+  <li>셀에 스페이스, 줄바꿈, 보이지 않는 문자, <code>""</code> 수식 결과가 있을 수 있습니다.</li>
+  <li><code>=LEN(A2)</code>로 길이를 재보거나, 찾기 및 바꾸기로 공백을 제거한 뒤 다시 시도하세요.</li>
+</ul>
+
+<h2 id="faq">7. FAQ</h2>
+<h3>Q1. 뭐가 제일 빠른가요?</h3>
+<p>기준 열이 명확하면 <strong>방법 1(이동 옵션)</strong>이 가장 빠릅니다. 확인이 필요하면 방법 2, 행 전체가 비었는지 엄격히 보려면 방법 3을 쓰세요.</p>
+<h3>Q2. 빈 셀만 지우면 열이 왼쪽으로 당겨지는데요?</h3>
+<p><kbd>Ctrl</kbd>+<kbd>-</kbd> 후 “왼쪽 셀 밀기”를 고르면 행이 아니라 셀만 지워집니다. 반드시 <strong>행 전체</strong>를 선택하세요. 또 기준 열만 선택한 뒤 진행하세요.</p>
+<h3>Q3. Microsoft 365와 Excel 2021에서 메뉴가 다른가요?</h3>
+<p>핵심 기능(이동 옵션, 필터, COUNTA)은 동일합니다. 찾기 및 선택 / 데이터 → 필터 경로를 기준으로 찾으면 됩니다.</p>
+<h3>Q4. 삭제한 행을 되돌리려면?</h3>
+<p>저장 전이면 <kbd>Ctrl</kbd>+<kbd>Z</kbd>. 이미 저장·닫았다면 백업본이 필요합니다.</p>
+
+<h2>정리</h2>
+<table>
+  <thead><tr><th>상황</th><th>추천</th></tr></thead>
+  <tbody>
+    <tr><td>기준 열이 비면 행 삭제, 속도 우선</td><td>이동 옵션(빈 셀)</td></tr>
+    <tr><td>지울 행을 눈으로 확인</td><td>필터 → (비어 있음)</td></tr>
+    <tr><td>행 전체가 진짜 빈 행인지 판별</td><td>COUNTA 도우미 열</td></tr>
+  </tbody>
+</table>
+<p><em>Windows Excel (Microsoft 365 / Excel 2021) 기준. Mac은 단축키가 다를 수 있습니다.</em></p>
+
+  </div>
+  <!-- AdSense: 하단 광고 슬롯 -->
+<div class="ad-slot" aria-hidden="true">광고 영역 (AdSense)</div>
+  <aside class="related">
+    <h2>관련 글</h2>
+    
+<ul>
+  <li><a href="/posts/excel-vlookup-na.html">엑셀 VLOOKUP #N/A 오류 해결 <span class="badge-soon">예정</span></a></li>
+  <li><a href="/posts/heic-jpg-convert.html">아이폰 HEIC를 JPG로 바꾸는 방법 5가지</a></li>
+  <li><a href="/posts/discord-mic-fix.html">디스코드 마이크 안 될 때 체크리스트 7단계</a></li>
+</ul>
+
+  </aside>
+</article>
+
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>막힘해결</strong>
+      컴퓨터로 뭔가 하다가 막혔을 때 들어오는 사이트<br>
+      <a href="https://www.innerapple.com">www.innerapple.com</a>
+    </div>
+    <div class="footer-links">
+      <a href="/">홈</a>
+      <a href="/#categories">분류</a>
+      <a href="/#latest">최신글</a>
+      <a href="/#planned">예정 글</a>
+    </div>
+    <p class="footer-copy">© 막힘해결 · 익명 니치 가이드. 제휴·광고 표기는 각 글에 명시합니다.</p>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
