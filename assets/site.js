@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "제미나이 파일 업로드 안 될 때: 오류별 해결 7단계",
+      url: "/posts/gemini-file-upload-error.html",
+      tags: ["Gemini", "제미나이", "AI", "파일", "업로드", "PDF"],
+      status: "live"
+    },
+    {
       title: "엑셀 빈 행 한 번에 삭제하는 3가지 방법",
       url: "/posts/excel-blank-rows.html",
       tags: ["Excel", "Office", "빈 행", "이동 옵션", "필터", "COUNTA"],
