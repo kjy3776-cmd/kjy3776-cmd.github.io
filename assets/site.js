@@ -29,7 +29,7 @@
       title: "크롬 메모리 사용량 줄이는 방법",
       url: "/posts/chrome-memory.html",
       tags: ["Chrome", "메모리", "브라우저", "웹"],
-      status: "planned"
+      status: "live"
     },
     {
       title: "OBS 검은화면 나올 때 고치는 법",
