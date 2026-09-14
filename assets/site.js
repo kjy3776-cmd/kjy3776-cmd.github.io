@@ -53,7 +53,7 @@
       title: "윈도우11 와이파이 아이콘 사라짐 복구",
       url: "/posts/win11-wifi-icon.html",
       tags: ["Windows11", "와이파이", "아이콘"],
-      status: "planned"
+      status: "live"
     },
     {
       title: "엑셀 VLOOKUP #N/A 오류 해결",
