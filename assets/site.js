@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "인스타그램 알림 안 올 때: 아이폰·갤럭시 해결 7단계",
+      url: "/posts/instagram-notifications.html",
+      tags: ["Instagram", "인스타그램", "SNS", "알림", "DM", "아이폰", "갤럭시"],
+      status: "live"
+    },
+    {
       title: "제미나이 파일 업로드 안 될 때: 오류별 해결 7단계",
       url: "/posts/gemini-file-upload-error.html",
       tags: ["Gemini", "제미나이", "AI", "파일", "업로드", "PDF"],
