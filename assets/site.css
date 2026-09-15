@@ -276,16 +276,17 @@ hr {
 /* Category cards */
 .cat-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: .75rem;
 }
 @media (min-width: 640px) {
-  .cat-grid { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .cat-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 }
 @media (min-width: 900px) {
-  .cat-grid { grid-template-columns: repeat(6, 1fr); }
+  .cat-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 }
 .cat-card {
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -313,11 +314,13 @@ hr {
 .cat-name {
   font-weight: 700;
   font-size: .9rem;
+  overflow-wrap: anywhere;
 }
 .cat-desc {
   font-size: .75rem;
   color: var(--text-muted);
   line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 /* Post cards */
