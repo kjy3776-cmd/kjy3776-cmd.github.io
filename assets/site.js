@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "ChatGPT 로그인 안 될 때: 인증 방식·무한 확인·OTP 해결 7단계",
+      url: "/posts/chatgpt-login-error.html",
+      tags: ["ChatGPT", "챗GPT", "AI", "로그인", "OTP", "인증", "Cloudflare"],
+      status: "live"
+    },
+    {
       title: "X 로그인 안 될 때: 비밀번호·이메일·인증 코드 복구 7단계",
       url: "/posts/x-login-recovery.html",
       tags: ["X", "트위터", "SNS", "로그인", "비밀번호", "인증 코드", "계정 복구"],
