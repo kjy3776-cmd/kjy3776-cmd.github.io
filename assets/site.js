@@ -159,10 +159,55 @@
     });
   }
 
+  function enhanceNavigation() {
+    document.querySelectorAll(".nav").forEach(function (nav) {
+      if (nav.querySelector('a[href="/articles.html"]')) return;
+      var search = nav.querySelector(".search-wrap");
+      if (!search) return;
+      var link = document.createElement("a");
+      link.href = "/articles.html";
+      link.textContent = "전체 글";
+      link.className = "nav-hide-sm";
+      nav.insertBefore(link, search);
+    });
+    document.querySelectorAll(".footer-links").forEach(function (footer) {
+      if (footer.querySelector('a[href="/articles.html"]')) return;
+      var link = document.createElement("a");
+      link.href = "/articles.html";
+      link.textContent = "전체 글";
+      footer.appendChild(link);
+    });
+  }
+
+  function enhanceRelated() {
+    var related = document.querySelector(".related ul");
+    if (!related) return;
+    var path = window.location.pathname;
+    var current = POSTS.find(function (p) { return p.url === path; });
+    var existing = Array.prototype.map.call(related.querySelectorAll("a"), function (a) { return a.getAttribute("href"); });
+    var currentTags = current ? current.tags.map(normalize) : [];
+    var candidates = POSTS.filter(function (p) {
+      return p.status === "live" && p.url !== path && existing.indexOf(p.url) === -1;
+    }).map(function (p) {
+      var score = p.tags.reduce(function (n, tag) { return n + (currentTags.indexOf(normalize(tag)) !== -1 ? 1 : 0); }, 0);
+      return { post: p, score: score };
+    }).sort(function (a, b) { return b.score - a.score; });
+    candidates.slice(0, Math.max(0, 5 - existing.length)).forEach(function (item) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = item.post.url;
+      a.textContent = item.post.title;
+      li.appendChild(a);
+      related.appendChild(li);
+    });
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
+    document.addEventListener("DOMContentLoaded", function () { init(); enhanceNavigation(); enhanceRelated(); });
   } else {
     init();
+    enhanceNavigation();
+    enhanceRelated();
   }
 
   window.MAKHIM_POSTS = POSTS;
