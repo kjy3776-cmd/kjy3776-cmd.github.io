@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "ChatGPT 음성모드 마이크 안 될 때 해결 7단계",
+      url: "/posts/chatgpt-voice-mic.html",
+      tags: ["ChatGPT", "챗GPT", "AI", "음성모드", "마이크", "권한"],
+      status: "live"
+    },
+    {
       title: "인스타그램 알림 안 올 때: 아이폰·갤럭시 해결 7단계",
       url: "/posts/instagram-notifications.html",
       tags: ["Instagram", "인스타그램", "SNS", "알림", "DM", "아이폰", "갤럭시"],
