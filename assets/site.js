@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Adobe Firefly 50% 할인 조건: 무제한 범위와 플랜 비교",
+      url: "/posts/adobe-firefly-50-off.html",
+      tags: ["Adobe", "Firefly", "어도비", "AI", "50% 할인", "무제한 크레딧", "요금제"],
+      status: "live"
+    },
+    {
       title: "ChatGPT 음성모드 마이크 안 될 때 해결 7단계",
       url: "/posts/chatgpt-voice-mic.html",
       tags: ["ChatGPT", "챗GPT", "AI", "음성모드", "마이크", "권한"],

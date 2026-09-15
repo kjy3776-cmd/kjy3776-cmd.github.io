@@ -648,3 +648,5 @@ hr {
 
 /* Published guide illustrations and small-screen reading */
 .guide-figure{margin:1.5rem 0}.guide-figure img{display:block;width:100%;border:1px solid var(--border);border-radius:12px}.guide-figure figcaption{font-size:.8rem;color:var(--text-muted);margin-top:.4rem}.sources{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border)}.post-body{overflow-wrap:anywhere}.post-body table{display:block;overflow-x:auto}.post-body h2,.post-body h3{scroll-margin-top:80px}.post-card.teaser{cursor:default}.post-card.teaser:hover{transform:none;box-shadow:var(--shadow)}
+
+.notice-box{margin:1.25rem 0;padding:1rem 1.1rem;border-left:4px solid var(--accent);border-radius:8px;background:var(--accent-soft);color:var(--text);font-size:.92rem}
