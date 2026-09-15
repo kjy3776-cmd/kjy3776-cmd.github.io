@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "X 로그인 안 될 때: 비밀번호·이메일·인증 코드 복구 7단계",
+      url: "/posts/x-login-recovery.html",
+      tags: ["X", "트위터", "SNS", "로그인", "비밀번호", "인증 코드", "계정 복구"],
+      status: "live"
+    },
+    {
       title: "Adobe Creative Cloud 로그인 안 될 때 해결 7단계",
       url: "/posts/creative-cloud-login-error.html",
       tags: ["Adobe", "Creative Cloud", "어도비", "로그인", "서버 오류", "활성화"],
