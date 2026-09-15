@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Adobe Creative Cloud 로그인 안 될 때 해결 7단계",
+      url: "/posts/creative-cloud-login-error.html",
+      tags: ["Adobe", "Creative Cloud", "어도비", "로그인", "서버 오류", "활성화"],
+      status: "live"
+    },
+    {
       title: "Adobe Firefly 50% 할인 조건: 무제한 범위와 플랜 비교",
       url: "/posts/adobe-firefly-50-off.html",
       tags: ["Adobe", "Firefly", "어도비", "AI", "50% 할인", "무제한 크레딧", "요금제"],
