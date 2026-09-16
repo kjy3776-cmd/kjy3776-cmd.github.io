@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Claude 로그인 안 될 때: 이메일 링크·Google·인증 코드 해결 7단계",
+      url: "/posts/claude-login-error.html",
+      tags: ["Claude", "클로드", "AI", "로그인", "이메일", "인증 코드"],
+      status: "live"
+    },
+    {
       title: "ChatGPT 로그인 안 될 때: 인증 방식·무한 확인·OTP 해결 7단계",
       url: "/posts/chatgpt-login-error.html",
       tags: ["ChatGPT", "챗GPT", "AI", "로그인", "OTP", "인증", "Cloudflare"],
