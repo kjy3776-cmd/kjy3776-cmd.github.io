@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "NVIDIA 그래픽 드라이버 설치 실패 해결 7단계",
+      url: "/posts/nvidia-driver-install-failed.html",
+      tags: ["NVIDIA", "엔비디아", "Windows", "그래픽", "드라이버", "설치 실패", "클린 설치"],
+      status: "live"
+    },
+    {
       title: "Adobe Acrobat PDF 인쇄 안 될 때 해결 7단계",
       url: "/posts/acrobat-pdf-print-error.html",
       tags: ["Adobe", "Acrobat", "PDF", "인쇄", "프린터", "이미지로 인쇄"],
