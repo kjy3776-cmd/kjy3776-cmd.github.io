@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Adobe Acrobat PDF 인쇄 안 될 때 해결 7단계",
+      url: "/posts/acrobat-pdf-print-error.html",
+      tags: ["Adobe", "Acrobat", "PDF", "인쇄", "프린터", "이미지로 인쇄"],
+      status: "live"
+    },
+    {
       title: "Claude 로그인 안 될 때: 이메일 링크·Google·인증 코드 해결 7단계",
       url: "/posts/claude-login-error.html",
       tags: ["Claude", "클로드", "AI", "로그인", "이메일", "인증 코드"],
