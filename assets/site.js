@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "카카오톡 PC 로그인 무한로딩 해결 7단계",
+      url: "/posts/kakao-pc-infinite-loading.html",
+      tags: ["카카오톡", "카톡", "PC", "로그인", "무한로딩", "방화벽", "재설치"],
+      status: "live"
+    },
+    {
       title: "NVIDIA 그래픽 드라이버 설치 실패 해결 7단계",
       url: "/posts/nvidia-driver-install-failed.html",
       tags: ["NVIDIA", "엔비디아", "Windows", "그래픽", "드라이버", "설치 실패", "클린 설치"],
@@ -78,12 +84,6 @@
       url: "/posts/discord-mic-fix.html",
       tags: ["Discord", "마이크", "Windows", "음성", "권한"],
       status: "live"
-    },
-    {
-      title: "카카오톡 PC 로그인 무한로딩 해결",
-      url: "/posts/kakao-pc-infinite-loading.html",
-      tags: ["카카오톡", "PC", "로그인", "프로그램"],
-      status: "planned"
     },
     {
       title: "크롬 메모리 사용량 줄이는 방법",
