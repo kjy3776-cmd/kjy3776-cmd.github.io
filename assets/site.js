@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Windows 11 업데이트 ‘설치 오류 0x80070002’ 해결 7단계",
+      url: "/posts/windows-update-0x80070002.html",
+      tags: ["Windows", "Windows 11", "Windows Update", "윈도우 업데이트", "0x80070002", "설치 오류", "DISM", "SFC"],
+      status: "live"
+    },
+    {
       title: "Adobe Acrobat PDF ‘액세스가 거부되었습니다’ 해결 7단계",
       url: "/posts/acrobat-pdf-access-denied.html",
       tags: ["Adobe", "Acrobat", "Reader", "PDF", "액세스가 거부되었습니다", "Access Denied", "보호 모드"],
