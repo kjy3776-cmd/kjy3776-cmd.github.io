@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Adobe Creative Cloud ‘오류 206: 네트워크 연결 없음’ 해결 7단계",
+      url: "/posts/creative-cloud-error-206.html",
+      tags: ["Adobe", "Creative Cloud", "오류 206", "네트워크 연결 없음", "서버 연결 끊김", "설치", "업데이트", "방화벽"],
+      status: "live"
+    },
+    {
       title: "Windows 11 업데이트 ‘설치 오류 0x80070002’ 해결 7단계",
       url: "/posts/windows-update-0x80070002.html",
       tags: ["Windows", "Windows 11", "Windows Update", "윈도우 업데이트", "0x80070002", "설치 오류", "DISM", "SFC"],
