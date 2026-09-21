@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Adobe Acrobat PDF ‘액세스가 거부되었습니다’ 해결 7단계",
+      url: "/posts/acrobat-pdf-access-denied.html",
+      tags: ["Adobe", "Acrobat", "Reader", "PDF", "액세스가 거부되었습니다", "Access Denied", "보호 모드"],
+      status: "live"
+    },
+    {
       title: "카카오톡 PC 로그인 무한로딩 해결 7단계",
       url: "/posts/kakao-pc-infinite-loading.html",
       tags: ["카카오톡", "카톡", "PC", "로그인", "무한로딩", "방화벽", "재설치"],
