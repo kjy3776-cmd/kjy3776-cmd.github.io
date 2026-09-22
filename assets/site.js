@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Excel ‘#SPILL! — 분산 범위가 비어 있지 않음’ 해결 7단계",
+      url: "/posts/excel-spill-range-not-blank.html",
+      tags: ["Excel", "엑셀", "#SPILL!", "분산 범위가 비어 있지 않음", "FILTER", "UNIQUE", "동적 배열", "장애 셀", "병합 셀", "표 수식"],
+      status: "live"
+    },
+    {
       title: "Netflix ‘tvq-pb-101(2.10.5006): 너무 많은 디바이스’ 해결 7단계",
       url: "/posts/netflix-tvq-pb-101-2-10-5006.html",
       tags: ["Netflix", "넷플릭스", "OTT", "tvq-pb-101", "2.10.5006", "너무 많은 디바이스", "동시 시청", "활성 스트림", "계정 보안"],
