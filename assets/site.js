@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Windows 11 ‘미리 보기하려는 파일이 컴퓨터에 해를 끼칠 수 있습니다’ 해결 7단계",
+      url: "/posts/windows-file-preview-warning.html",
+      tags: ["Windows", "Windows 11", "파일 탐색기", "미리 보기", "PDF 미리보기", "컴퓨터에 해를 끼칠 수 있습니다", "Mark of the Web", "MotW", "차단 해제"],
+      status: "live"
+    },
+    {
       title: "Adobe Creative Cloud ‘오류 206: 네트워크 연결 없음’ 해결 7단계",
       url: "/posts/creative-cloud-error-206.html",
       tags: ["Adobe", "Creative Cloud", "오류 206", "네트워크 연결 없음", "서버 연결 끊김", "설치", "업데이트", "방화벽"],
