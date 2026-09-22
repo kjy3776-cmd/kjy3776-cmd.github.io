@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "OneDrive ‘로그인할 수 없습니다 0x8004de40’ 해결 7단계",
+      url: "/posts/onedrive-0x8004de40.html",
+      tags: ["OneDrive", "원드라이브", "Windows", "Microsoft 365", "로그인할 수 없습니다", "0x8004de40", "클라우드 연결", "초기화", "TLS"],
+      status: "live"
+    },
+    {
       title: "Windows 11 ‘미리 보기하려는 파일이 컴퓨터에 해를 끼칠 수 있습니다’ 해결 7단계",
       url: "/posts/windows-file-preview-warning.html",
       tags: ["Windows", "Windows 11", "파일 탐색기", "미리 보기", "PDF 미리보기", "컴퓨터에 해를 끼칠 수 있습니다", "Mark of the Web", "MotW", "차단 해제"],
