@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Netflix ‘tvq-pb-101(2.10.5006): 너무 많은 디바이스’ 해결 7단계",
+      url: "/posts/netflix-tvq-pb-101-2-10-5006.html",
+      tags: ["Netflix", "넷플릭스", "OTT", "tvq-pb-101", "2.10.5006", "너무 많은 디바이스", "동시 시청", "활성 스트림", "계정 보안"],
+      status: "live"
+    },
+    {
       title: "Netflix(넷플릭스) ‘오류 ui-800-3’ 해결 7단계",
       url: "/posts/netflix-ui-800-3.html",
       tags: ["Netflix", "넷플릭스", "OTT", "스마트 TV", "ui-800-3", "DRM", "네트워크 오류", "셋톱박스", "앱 재설정"],
