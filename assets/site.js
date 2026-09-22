@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Netflix(넷플릭스) ‘오류 ui-800-3’ 해결 7단계",
+      url: "/posts/netflix-ui-800-3.html",
+      tags: ["Netflix", "넷플릭스", "OTT", "스마트 TV", "ui-800-3", "DRM", "네트워크 오류", "셋톱박스", "앱 재설정"],
+      status: "live"
+    },
+    {
       title: "OneDrive ‘로그인할 수 없습니다 0x8004de40’ 해결 7단계",
       url: "/posts/onedrive-0x8004de40.html",
       tags: ["OneDrive", "원드라이브", "Windows", "Microsoft 365", "로그인할 수 없습니다", "0x8004de40", "클라우드 연결", "초기화", "TLS"],

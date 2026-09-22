@@ -25,4 +25,4 @@ GitHub Pages: main 브랜치 루트. 도메인: https://www.innerapple.com
 
 ## 콘텐츠 현황
 
-글 21개 발행, 예정 글 4개는 noindex이며 사이트맵·검색에서 제외합니다. assets의 SVG 3개는 설명 도식이며 앱 캡처가 아닙니다.
+글 22개 발행, 예정 글 4개는 noindex이며 사이트맵·검색에서 제외합니다. assets의 SVG 3개는 설명 도식이며 앱 캡처가 아닙니다.
