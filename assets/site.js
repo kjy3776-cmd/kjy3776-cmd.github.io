@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "ChatGPT ‘네트워크 오류가 발생했습니다’ 해결 7단계",
+      url: "/posts/chatgpt-network-error.html",
+      tags: ["ChatGPT", "챗GPT", "네트워크 오류가 발생했습니다", "A network error occurred", "Network error", "웹소켓", "VPN", "프록시", "브라우저"],
+      status: "live"
+    },
+    {
       title: "Excel ‘#SPILL! — 분산 범위가 비어 있지 않음’ 해결 7단계",
       url: "/posts/excel-spill-range-not-blank.html",
       tags: ["Excel", "엑셀", "#SPILL!", "분산 범위가 비어 있지 않음", "FILTER", "UNIQUE", "동적 배열", "장애 셀", "병합 셀", "표 수식"],
