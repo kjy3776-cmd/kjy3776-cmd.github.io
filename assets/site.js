@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "티빙(TVING) ‘크롬캐스트 버튼이 안 보임’ 해결 7단계",
+      url: "/posts/tving-chromecast-button-missing.html",
+      tags: ["티빙", "TVING", "OTT", "크롬캐스트", "Chromecast", "Cast 버튼", "광고형 스탠다드", "티빙 라이트", "TV 앱", "와이파이"],
+      status: "live"
+    },
+    {
       title: "Windows 11 USB 오디오 ‘이 장치를 시작할 수 없습니다(코드 10)’ 해결 7단계",
       url: "/posts/windows-usb-audio-code-10.html",
       tags: ["Windows 11", "윈도우11", "USB 오디오", "USB 헤드셋", "코드 10", "이 장치를 시작할 수 없습니다", "USB Audio Class 1.0", "KB5124008", "소리 안 남"],
