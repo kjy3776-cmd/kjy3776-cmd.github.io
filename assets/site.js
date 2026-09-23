@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Windows 11 USB 오디오 ‘이 장치를 시작할 수 없습니다(코드 10)’ 해결 7단계",
+      url: "/posts/windows-usb-audio-code-10.html",
+      tags: ["Windows 11", "윈도우11", "USB 오디오", "USB 헤드셋", "코드 10", "이 장치를 시작할 수 없습니다", "USB Audio Class 1.0", "KB5124008", "소리 안 남"],
+      status: "live"
+    },
+    {
       title: "ChatGPT ‘네트워크 오류가 발생했습니다’ 해결 7단계",
       url: "/posts/chatgpt-network-error.html",
       tags: ["ChatGPT", "챗GPT", "네트워크 오류가 발생했습니다", "A network error occurred", "Network error", "웹소켓", "VPN", "프록시", "브라우저"],
