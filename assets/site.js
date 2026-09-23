@@ -106,7 +106,7 @@
     {
       title: "Adobe Creative Cloud 로그인 안 될 때 해결 7단계",
       url: "/posts/creative-cloud-login-error.html",
-      tags: ["Adobe", "Creative Cloud", "어도비", "로그인", "서버 오류", "활성화"],
+      tags: ["Adobe", "Creative Cloud", "어도비", "로그인", "서버 오류", "활성화", "구독 갱신", "라이선스"],
       status: "live"
     },
     {
