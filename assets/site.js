@@ -94,7 +94,7 @@
     {
       title: "Claude 로그인 안 될 때: 이메일 링크·Google·인증 코드 해결 7단계",
       url: "/posts/claude-login-error.html",
-      tags: ["Claude", "클로드", "AI", "로그인", "이메일", "인증 코드"],
+      tags: ["Claude", "클로드", "AI", "로그인", "이메일", "인증 코드", "조직 계정", "Apple 비공개 이메일"],
       status: "live"
     },
     {
