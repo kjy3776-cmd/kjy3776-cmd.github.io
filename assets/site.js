@@ -136,7 +136,7 @@
     {
       title: "제미나이 파일 업로드 안 될 때: 오류별 해결 7단계",
       url: "/posts/gemini-file-upload-error.html",
-      tags: ["Gemini", "제미나이", "AI", "파일", "업로드", "PDF"],
+      tags: ["Gemini", "제미나이", "AI", "파일", "업로드", "PDF", "파일이 포함된 채팅의 한도", "Drive 파일 추가", "데이터 삭제"],
       status: "live"
     },
     {
