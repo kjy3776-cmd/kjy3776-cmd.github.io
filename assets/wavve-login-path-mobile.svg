@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="550" viewBox="0 0 390 550" role="img" aria-labelledby="title desc">
+<title id="title">웨이브 로그인 복구 경로</title><desc id="desc">SNS 간편가입은 SNS 공식 복구, 웨이브 ID·이메일 회원은 웨이브 공식 계정 복구 화면을 이용한다.</desc>
+<rect width="390" height="550" rx="18" fill="#f3f7fb"/>
+<text x="20" y="37" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#15324c">가입 방식부터 확인</text>
+<text x="20" y="62" font-family="Arial, sans-serif" font-size="14" fill="#4d6478">새 계정·재결제 전에 원래 버튼을 보세요.</text>
+<rect x="20" y="83" width="350" height="117" rx="13" fill="#fff" stroke="#bfd0de" stroke-width="2"/>
+<text x="36" y="112" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#15324c">SNS 간편가입</text>
+<text x="36" y="139" font-family="Arial, sans-serif" font-size="15" fill="#274962">카카오·네이버·T 아이디 등 같은 버튼</text>
+<text x="36" y="165" font-family="Arial, sans-serif" font-size="15" fill="#35618a">비밀번호는 해당 SNS에서 복구</text>
+<text x="173" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#53789b">또는</text>
+<rect x="20" y="228" width="350" height="117" rx="13" fill="#fff" stroke="#bfd0de" stroke-width="2"/>
+<text x="36" y="257" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#15324c">Wavve 자체 계정</text>
+<text x="36" y="284" font-family="Arial, sans-serif" font-size="15" fill="#274962">기존 ID·이메일 회원은 공식 찾기 화면</text>
+<text x="36" y="310" font-family="Arial, sans-serif" font-size="15" fill="#35618a">2021년 9월 전후 메뉴 구분</text>
+<path d="M195 348v16" stroke="#53789b" stroke-width="3" stroke-linecap="round"/><path d="m189 360 6 8 6-8" fill="none" stroke="#53789b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="20" y="373" width="350" height="105" rx="13" fill="#e7f5ed" stroke="#9acdb1" stroke-width="2"/>
+<text x="36" y="404" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#173e2b">원래 계정의 이용권 확인</text>
+<text x="36" y="432" font-family="Arial, sans-serif" font-size="15" fill="#26583e">이용권이 없으면 다른 계정인지 먼저 확인</text>
+<text x="20" y="510" font-family="Arial, sans-serif" font-size="14" fill="#586d7b">SNS 가입은 기존 계정과 자동 연동되지 않음</text>
+<text x="20" y="530" font-family="Arial, sans-serif" font-size="13" fill="#586d7b">자료: Wavve 공식 계정 화면</text>
+</svg>

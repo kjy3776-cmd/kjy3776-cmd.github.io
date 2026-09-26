@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "웨이브(Wavve) 로그인 안 됨: SNS·이메일 계정 복구 7단계",
+      url: "/posts/wavve-login-account-recovery.html",
+      tags: ["웨이브", "Wavve", "OTT", "로그인 안됨", "아이디 찾기", "비밀번호 재설정", "SNS 간편가입", "카카오 로그인", "네이버 로그인", "이용권 안보임"],
+      status: "live"
+    },
+    {
       title: "티빙(TVING) ‘크롬캐스트 버튼이 안 보임’ 해결 7단계",
       url: "/posts/tving-chromecast-button-missing.html",
       tags: ["티빙", "TVING", "OTT", "크롬캐스트", "Chromecast", "Cast 버튼", "광고형 스탠다드", "티빙 라이트", "TV 앱", "와이파이"],

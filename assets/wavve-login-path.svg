@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350" role="img" aria-labelledby="title desc">
+<title id="title">웨이브 로그인 복구 경로</title><desc id="desc">처음 가입한 방식에 따라 SNS 간편가입은 SNS 제공자에서, 웨이브 ID·이메일 회원은 웨이브 공식 찾기 화면에서 복구한다.</desc>
+<rect width="800" height="350" rx="18" fill="#f3f7fb"/>
+<text x="38" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#15324c">로그인 안 될 때, 가입 방식부터 확인</text>
+<text x="38" y="76" font-family="Arial, sans-serif" font-size="16" fill="#4d6478">새 계정 생성·재결제 전에 원래 로그인 버튼을 떠올리세요.</text>
+<rect x="38" y="110" width="222" height="166" rx="15" fill="#fff" stroke="#bfd0de" stroke-width="2"/>
+<text x="58" y="145" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#15324c">SNS 간편가입</text>
+<text x="58" y="177" font-family="Arial, sans-serif" font-size="16" fill="#274962">카카오·네이버·T 아이디 등</text>
+<text x="58" y="208" font-family="Arial, sans-serif" font-size="16" fill="#274962">같은 SNS 버튼으로 로그인</text>
+<text x="58" y="240" font-family="Arial, sans-serif" font-size="15" fill="#35618a">비밀번호는 SNS에서 복구</text>
+<text x="272" y="198" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#53789b">또는</text>
+<rect x="310" y="110" width="222" height="166" rx="15" fill="#fff" stroke="#bfd0de" stroke-width="2"/>
+<text x="330" y="145" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#15324c">Wavve 자체 계정</text>
+<text x="330" y="177" font-family="Arial, sans-serif" font-size="16" fill="#274962">기존 ID 또는 이메일 회원</text>
+<text x="330" y="208" font-family="Arial, sans-serif" font-size="16" fill="#274962">아이디 찾기·비밀번호 재설정</text>
+<text x="330" y="240" font-family="Arial, sans-serif" font-size="15" fill="#35618a">2021년 9월 전후 메뉴 구분</text>
+<path d="M546 192h26" stroke="#53789b" stroke-width="3" stroke-linecap="round"/><path d="m570 186 9 6-9 6" fill="none" stroke="#53789b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="582" y="110" width="180" height="166" rx="15" fill="#e7f5ed" stroke="#9acdb1" stroke-width="2"/>
+<text x="602" y="145" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#173e2b">로그인 후 확인</text>
+<text x="602" y="177" font-family="Arial, sans-serif" font-size="16" fill="#26583e">원래 계정인가?</text>
+<text x="602" y="208" font-family="Arial, sans-serif" font-size="16" fill="#26583e">기존 이용권이</text>
+<text x="602" y="232" font-family="Arial, sans-serif" font-size="16" fill="#26583e">보이는가?</text>
+<text x="38" y="316" font-family="Arial, sans-serif" font-size="15" fill="#586d7b">SNS 간편가입은 기존 POOQ·Wavve 계정과 자동 연동되지 않습니다. 자료: Wavve 공식 계정 화면</text>
+</svg>
