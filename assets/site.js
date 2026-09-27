@@ -172,7 +172,7 @@
     {
       title: "인스타그램 알림 안 올 때: 아이폰·갤럭시 해결 7단계",
       url: "/posts/instagram-notifications.html",
-      tags: ["Instagram", "인스타그램", "SNS", "알림", "DM", "아이폰", "갤럭시"],
+      tags: ["Instagram", "인스타그램", "SNS", "알림", "DM", "아이폰", "갤럭시", "수면 모드", "조용한 모드", "예약 요약", "집중 모드"],
       status: "live"
     },
     {
