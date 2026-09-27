@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "ChatGPT ‘업로드 한도에 도달했습니다(upload limit reached)’ 해결 7단계",
+      url: "/posts/chatgpt-upload-limit-reached.html",
+      tags: ["ChatGPT", "챗GPT", "업로드 한도에 도달했습니다", "upload limit reached", "파일 업로드 한도", "Library Storage", "저장 공간", "프로젝트 파일 제한"],
+      status: "live"
+    },
+    {
       title: "Windows 11 ‘Bluetooth 켜기 버튼 사라짐’ 해결 7단계",
       url: "/posts/windows11-bluetooth-toggle-missing.html",
       tags: ["Windows 11", "윈도우11", "Bluetooth", "블루투스", "켜기 버튼 사라짐", "블루투스 토글 없음", "빠른 설정", "블루투스 어댑터", "드라이버"],
