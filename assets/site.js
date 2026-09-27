@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Adobe Creative Cloud 앱 실행 ‘라이선스 오류 205’ 해결 7단계",
+      url: "/posts/creative-cloud-license-error-205.html",
+      tags: ["Adobe", "Creative Cloud", "크리에이티브 클라우드", "라이선스 오류 205", "error 205", "앱 실행 오류", "Windows 자격 증명 관리자", "Adobe App"],
+      status: "live"
+    },
+    {
       title: "ChatGPT ‘업로드 한도에 도달했습니다(upload limit reached)’ 해결 7단계",
       url: "/posts/chatgpt-upload-limit-reached.html",
       tags: ["ChatGPT", "챗GPT", "업로드 한도에 도달했습니다", "upload limit reached", "파일 업로드 한도", "Library Storage", "저장 공간", "프로젝트 파일 제한"],
