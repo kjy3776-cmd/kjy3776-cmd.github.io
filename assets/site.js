@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Windows 11 ‘Bluetooth 켜기 버튼 사라짐’ 해결 7단계",
+      url: "/posts/windows11-bluetooth-toggle-missing.html",
+      tags: ["Windows 11", "윈도우11", "Bluetooth", "블루투스", "켜기 버튼 사라짐", "블루투스 토글 없음", "빠른 설정", "블루투스 어댑터", "드라이버"],
+      status: "live"
+    },
+    {
       title: "디스코드(Discord) ‘RTC 연결 중(RTC Connecting)’ 무한 대기 해결 7단계",
       url: "/posts/discord-rtc-connecting.html",
       tags: ["디스코드", "Discord", "RTC 연결 중", "RTC Connecting", "No Route", "ICE Checking", "음성 채널 연결", "음성 서버", "방화벽"],
