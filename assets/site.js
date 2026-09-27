@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Excel ‘파일 형식 또는 파일 확장명이 잘못되어 열 수 없습니다’ 해결 7단계",
+      url: "/posts/excel-file-format-extension-invalid.html",
+      tags: ["Excel", "엑셀", "파일 형식 또는 파일 확장명이 잘못되어", "파일을 열 수 없습니다", "xlsx", "열기 및 복구", "데이터 추출", "통합 문서 손상"],
+      status: "live"
+    },
+    {
       title: "웨이브(Wavve) 로그인 안 됨: SNS·이메일 계정 복구 7단계",
       url: "/posts/wavve-login-account-recovery.html",
       tags: ["웨이브", "Wavve", "OTT", "로그인 안됨", "아이디 찾기", "비밀번호 재설정", "SNS 간편가입", "카카오 로그인", "네이버 로그인", "이용권 안보임"],
