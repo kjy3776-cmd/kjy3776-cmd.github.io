@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "ChatGPT 앱 ‘DeviceCheckError’ 로그인 안 됨: 날짜·시간·기기 인증 해결 7단계",
+      url: "/posts/chatgpt-devicecheckerror.html",
+      tags: ["ChatGPT", "챗GPT", "DeviceCheckError", "기기의 날짜와 시간", "인터넷 연결", "기기 인증", "모바일 로그인", "Play 프로텍트 인증"],
+      status: "live"
+    },
+    {
       title: "Adobe Photoshop ‘스크래치 디스크가 꽉 찼기 때문에 요청을 완료할 수 없음’ 해결 7단계",
       url: "/posts/photoshop-scratch-disk-full.html",
       tags: ["Adobe", "Photoshop", "포토샵", "스크래치 디스크", "스크래치 디스크가 꽉 찼으므로", "scratch disks are full", "Photoshop Temp", "스크래치 디스크 공간 부족"],
