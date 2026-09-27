@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Adobe Photoshop ‘스크래치 디스크가 꽉 찼기 때문에 요청을 완료할 수 없음’ 해결 7단계",
+      url: "/posts/photoshop-scratch-disk-full.html",
+      tags: ["Adobe", "Photoshop", "포토샵", "스크래치 디스크", "스크래치 디스크가 꽉 찼으므로", "scratch disks are full", "Photoshop Temp", "스크래치 디스크 공간 부족"],
+      status: "live"
+    },
+    {
       title: "Excel ‘파일 형식 또는 파일 확장명이 잘못되어 열 수 없습니다’ 해결 7단계",
       url: "/posts/excel-file-format-extension-invalid.html",
       tags: ["Excel", "엑셀", "파일 형식 또는 파일 확장명이 잘못되어", "파일을 열 수 없습니다", "xlsx", "열기 및 복구", "데이터 추출", "통합 문서 손상"],
