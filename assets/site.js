@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "디스코드(Discord) ‘RTC 연결 중(RTC Connecting)’ 무한 대기 해결 7단계",
+      url: "/posts/discord-rtc-connecting.html",
+      tags: ["디스코드", "Discord", "RTC 연결 중", "RTC Connecting", "No Route", "ICE Checking", "음성 채널 연결", "음성 서버", "방화벽"],
+      status: "live"
+    },
+    {
       title: "ChatGPT 앱 ‘DeviceCheckError’ 로그인 안 됨: 날짜·시간·기기 인증 해결 7단계",
       url: "/posts/chatgpt-devicecheckerror.html",
       tags: ["ChatGPT", "챗GPT", "DeviceCheckError", "기기의 날짜와 시간", "인터넷 연결", "기기 인증", "모바일 로그인", "Play 프로텍트 인증"],
