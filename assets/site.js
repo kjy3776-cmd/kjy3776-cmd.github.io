@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "Windows 11 업데이트 오류 0x80070422: 서비스 ‘사용 안 함’ 확인과 복구",
+      url: "/posts/windows-update-0x80070422.html",
+      tags: ["Windows 11", "윈도우 업데이트", "Windows Update", "0x80070422", "ERROR_SERVICE_DISABLED", "서비스 사용 안 함", "서비스 시작", "BITS"],
+      status: "live"
+    },
+    {
       title: "Adobe Creative Cloud 앱 실행 ‘라이선스 오류 205’ 해결 7단계",
       url: "/posts/creative-cloud-license-error-205.html",
       tags: ["Adobe", "Creative Cloud", "크리에이티브 클라우드", "라이선스 오류 205", "error 205", "앱 실행 오류", "Windows 자격 증명 관리자", "Adobe App"],
