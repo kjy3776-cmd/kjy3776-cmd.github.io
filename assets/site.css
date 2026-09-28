@@ -643,6 +643,13 @@ hr {
 #categories { scroll-margin-top: calc(var(--header-h) + 1rem); }
 #latest { scroll-margin-top: calc(var(--header-h) + 1rem); }
 #planned { scroll-margin-top: calc(var(--header-h) + 1rem); }
+.planned-ideas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.25rem; }
+.planned-idea { min-width: 0; padding: 1.25rem; border: 1px solid var(--border); border-radius: 14px; background: #fff; scroll-margin-top: calc(var(--header-h) + 1rem); }
+.planned-idea h3 { margin: 0 0 .8rem; font-size: 1.12rem; line-height: 1.4; }
+.planned-idea h3 .badge-soon { margin-left: .35rem; vertical-align: middle; font-size: .72rem; }
+.planned-idea ol { margin: 0; padding-left: 1.35rem; color: var(--text); line-height: 1.7; }
+.planned-idea li + li { margin-top: .6rem; }
+@media (max-width: 760px) { .planned-ideas { grid-template-columns: 1fr; } }
 
 .visually-hidden {
   position: absolute;
