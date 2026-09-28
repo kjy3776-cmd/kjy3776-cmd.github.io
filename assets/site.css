@@ -662,10 +662,15 @@ hr {
 
 /* Reusable long-form reading layout. Opt in with .reading-layout on .post-wrap. */
 .post-wrap.reading-layout {
-  max-width: 1280px;
-  padding: 2rem 1.5rem 3rem;
+  max-width: 1160px;
+  display: grid;
+  grid-template-columns: minmax(0, 780px) minmax(220px, 1fr);
+  column-gap: 28px;
+  align-items: start;
+  padding: 2rem 1.25rem 3rem;
 }
 .reading-layout .post-header {
+  grid-column: 1 / -1;
   margin-bottom: 1.75rem;
   padding: clamp(1.5rem, 4vw, 2.75rem);
   text-align: center;
@@ -701,6 +706,7 @@ hr {
 .reading-layout .guide-jumps a:hover,
 .reading-layout .guide-jumps a:focus-visible { background: #e9f3ff; text-decoration: none; }
 .reading-layout .post-body {
+  grid-column: 1;
   min-width: 0;
   padding: clamp(1.25rem, 3vw, 2rem);
   background: #fff;
@@ -722,6 +728,7 @@ hr {
   font-size: .95rem !important;
 }
 .reading-layout .toc {
+  display: none;
   margin: 1.7rem 0;
   padding: 1.2rem 1.4rem;
   background: #f7faff;
@@ -749,6 +756,45 @@ hr {
 }
 .reading-layout .guide-summary ol { margin-bottom: 0; }
 .reading-layout .guide-summary li { padding-left: .15rem; }
+.post-body .guide-action {
+  display: grid;
+  justify-items: start;
+  gap: .45rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.15rem;
+  background: #f7faff;
+  border: 1px solid #d5e5f7;
+  border-radius: 10px;
+}
+.post-body .guide-action-label {
+  color: #52657b;
+  font-size: .8rem;
+  font-weight: 600;
+}
+.post-body .guide-action-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  max-width: 100%;
+  padding: .6rem 1rem;
+  color: #134f91;
+  background: #fff;
+  border: 1px solid #8ab8e9;
+  border-radius: 8px;
+  font-size: .92rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+  text-decoration: none;
+}
+.post-body .guide-action-link:hover,
+.post-body .guide-action-link:focus-visible {
+  color: #0e3c70;
+  background: #eaf4ff;
+  border-color: #4489d5;
+  text-decoration: none;
+}
 .reading-layout .guide-warning {
   margin: 1.1rem 0 0;
   padding: .85rem 1rem;
@@ -782,9 +828,29 @@ hr {
 .reading-layout .table-scroll th { background: #e9eef5; color: #233b57; }
 .reading-layout .table-scroll tbody tr:nth-child(even) { background: #f7f9fc; }
 .reading-layout .table-hint { display: none; font-size: .78rem !important; color: var(--text-muted); }
+.reading-layout .reading-sidebar {
+  grid-column: 2;
+  position: sticky;
+  top: calc(var(--header-h) + 1rem);
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.reading-layout .reading-sidebar h2 { margin: 0 0 .8rem; font-size: 1rem; color: #17365b; }
+.reading-layout .reading-sidebar nav a { display: block; padding: .48rem 0; border-bottom: 1px solid #ebeff5; font-size: .88rem; }
+.reading-layout .reading-sidebar nav a:last-child { border-bottom: 0; }
+.reading-layout .reading-sidebar p { margin: 1rem 0 0; padding-top: .8rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: .8rem; line-height: 1.6; }
+.reading-layout .related { grid-column: 1 / -1; }
 .reading-layout .related ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; }
 .reading-layout .related li { margin: 0; }
 .reading-layout a:focus-visible { outline: 3px solid #74adf4; outline-offset: 3px; }
+@media (max-width: 940px) {
+  .post-wrap.reading-layout { display: block; max-width: 800px; }
+  .reading-layout .reading-sidebar { display: none; }
+  .reading-layout .toc { display: block; }
+}
 @media (max-width: 640px) {
   .post-wrap.reading-layout { padding: .85rem .8rem 2.5rem; }
   .reading-layout .post-header { padding: 1.25rem; text-align: left; border-radius: 12px; }
@@ -796,6 +862,8 @@ hr {
   .reading-layout .toc ol { grid-template-columns: 1fr; }
   .reading-layout .guide-summary { padding: 1.15rem; }
   .reading-layout .guide-summary h2 { font-size: 1.25rem; }
+  .post-body .guide-action { padding: .9rem; }
+  .post-body .guide-action-link { width: 100%; }
   .reading-layout .post-body > h2 { font-size: 1.13rem; padding: .7rem .8rem; }
   .reading-layout .post-body > h3 { font-size: 1.03rem; }
   .reading-layout .table-hint { display: block; margin-top: -.9rem !important; }
