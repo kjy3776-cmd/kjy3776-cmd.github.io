@@ -1,4 +1,4 @@
-/* 막힘해결 — client-side search */
+/* 꿀TMI — client-side search */
 (function () {
   var POSTS = [
     {
