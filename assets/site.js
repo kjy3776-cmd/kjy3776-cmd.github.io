@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "예방접종증명서 온라인 발급: 본인·자녀 국문·영문 신청과 기록 누락 확인",
+      url: "/posts/vaccination-certificate-online.html",
+      tags: ["건강백과", "예방접종증명서", "질병관리청", "예방접종도우미", "접종기록", "국문", "영문", "자녀"],
+      status: "live"
+    },
+    {
       title: "정부24 전입신고 온라인 신청: 세대주 확인·처리결과 조회",
       url: "/posts/gov24-move-in-report-status.html",
       tags: ["정부24", "전입신고", "세대주 확인", "처리완료", "나의 신청내역", "이사", "내집마련꿀팁"],
