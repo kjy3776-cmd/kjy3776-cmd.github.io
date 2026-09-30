@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "홈택스 미수령 국세환급금 조회·환급계좌 신고 방법",
+      url: "/posts/hometax-unclaimed-refund-account.html",
+      tags: ["국세청", "홈택스", "국세환급금", "미수령 환급금", "환급금찾기", "환급계좌", "돈버는꿀팁"],
+      status: "live"
+    },
+    {
       title: "정부24 혜택알리미 ‘나의 혜택’ 조회 방법: 로그인·이용동의부터 신청 확인까지",
       url: "/posts/gov24-benefit-alert-my-benefits.html",
       tags: ["정부24", "혜택알리미", "나의 혜택", "정부 혜택 조회", "지원금", "돈버는꿀팁", "간편찾기"],
