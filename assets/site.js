@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "정부24 전입신고 온라인 신청: 세대주 확인·처리결과 조회",
+      url: "/posts/gov24-move-in-report-status.html",
+      tags: ["정부24", "전입신고", "세대주 확인", "처리완료", "나의 신청내역", "이사", "내집마련꿀팁"],
+      status: "live"
+    },
+    {
       title: "홈택스 미수령 국세환급금 조회·환급계좌 신고 방법",
       url: "/posts/hometax-unclaimed-refund-account.html",
       tags: ["국세청", "홈택스", "국세환급금", "미수령 환급금", "환급금찾기", "환급계좌", "돈버는꿀팁"],
