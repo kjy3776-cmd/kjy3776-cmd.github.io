@@ -1,6 +1,6 @@
 # 2026-10-01 청년도약계좌 부분인출 홍보 문안
 
-연결 글: https://www.innerapple.com/posts/youth-leap-account-partial-withdrawal.html  
+연결 글: https://www.innerapple.com/posts/youth-leap-account-partial-withdrawal.html
 상태: 문안 준비만 완료. 게시하지 않음. 채널 인증·당일 중복 여부와 외부 질문 적합성 미확인. 추천 유입 데이터 접근 불가.
 
 ## X
