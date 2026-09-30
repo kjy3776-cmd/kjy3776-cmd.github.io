@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전월세 계약 전 등기사항증명서 확인: 소유자·근저당·신탁 점검",
+      url: "/posts/lease-registry-before-contract.html",
+      tags: ["내집마련꿀팁", "전월세", "등기사항증명서", "등기부등본", "인터넷등기소", "소유자", "근저당", "신탁", "전세사기 예방"],
+      status: "live"
+    },
+    {
       title: "청년도약계좌 부분인출: 2년·3년 조건과 정부기여금",
       url: "/posts/youth-leap-account-partial-withdrawal.html",
       tags: ["돈버는꿀팁", "청년도약계좌", "부분인출", "2년", "3년", "정부기여금", "중도해지", "서민금융진흥원"],
