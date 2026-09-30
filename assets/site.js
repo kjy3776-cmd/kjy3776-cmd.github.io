@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "청년도약계좌 부분인출: 2년·3년 조건과 정부기여금",
+      url: "/posts/youth-leap-account-partial-withdrawal.html",
+      tags: ["돈버는꿀팁", "청년도약계좌", "부분인출", "2년", "3년", "정부기여금", "중도해지", "서민금융진흥원"],
+      status: "live"
+    },
+    {
       title: "예방접종증명서 온라인 발급: 본인·자녀 국문·영문 신청과 기록 누락 확인",
       url: "/posts/vaccination-certificate-online.html",
       tags: ["건강백과", "예방접종증명서", "질병관리청", "예방접종도우미", "접종기록", "국문", "영문", "자녀"],
