@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "정부24 혜택알리미 ‘나의 혜택’ 조회 방법: 로그인·이용동의부터 신청 확인까지",
+      url: "/posts/gov24-benefit-alert-my-benefits.html",
+      tags: ["정부24", "혜택알리미", "나의 혜택", "정부 혜택 조회", "지원금", "돈버는꿀팁", "간편찾기"],
+      status: "live"
+    },
+    {
       title: "Windows 11 업데이트 오류 0x80070422: 서비스 ‘사용 안 함’ 확인과 복구",
       url: "/posts/windows-update-0x80070422.html",
       tags: ["Windows 11", "윈도우 업데이트", "Windows Update", "0x80070422", "ERROR_SERVICE_DISABLED", "서비스 사용 안 함", "서비스 시작", "BITS"],
