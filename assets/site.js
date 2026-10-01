@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "건강보험 자격득실확인서 온라인 발급: 정부24·공단 경로와 제출 전 확인",
+      url: "/posts/health-insurance-qualification-history-online.html",
+      tags: ["건강백과", "건강보험", "자격득실확인서", "정부24", "국민건강보험공단", "온라인 발급", "재직증명서"],
+      status: "live"
+    },
+    {
       title: "전입세대확인서 열람·발급: 전월세 계약 전 신청 자격·준비물·방문 수수료",
       url: "/posts/move-in-household-certificate-before-lease.html",
       tags: ["내집마련꿀팁", "전입세대확인서", "전입세대열람", "전월세 계약", "방문 신청", "주민센터", "열람 수수료"],
