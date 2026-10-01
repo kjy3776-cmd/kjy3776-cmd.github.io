@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "주민등록등본 인터넷 발급 방법: 정부24 무료 신청·초본 선택·출력 확인",
+      url: "/posts/gov24-resident-registration-copy-online.html",
+      tags: ["내집마련꿀팁", "주민등록등본", "주민등록표 등본", "주민등록표 초본", "정부24", "인터넷 발급", "무료 발급"],
+      status: "live"
+    },
+    {
       title: "국가건강검진 결과 온라인 조회·출력: 공단에서 안 보일 때 확인 순서",
       url: "/posts/health-checkup-results-online.html",
       tags: ["건강백과", "국가건강검진", "건강검진 결과", "결과조회", "결과 출력", "국민건강보험공단"],
