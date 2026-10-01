@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전입신고와 확정일자 차이: 전월세 세입자가 둘 다 확인해야 하는 이유",
+      url: "/posts/move-in-report-fixed-date-difference.html",
+      tags: ["내집마련꿀팁", "전입신고", "확정일자", "대항력", "우선변제권", "전월세", "보증금", "이사"],
+      status: "live"
+    },
+    {
       title: "전월세 계약 전 등기사항증명서 확인: 소유자·근저당·신탁 점검",
       url: "/posts/lease-registry-before-contract.html",
       tags: ["내집마련꿀팁", "전월세", "등기사항증명서", "등기부등본", "인터넷등기소", "소유자", "근저당", "신탁", "전세사기 예방"],
