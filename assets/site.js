@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전입세대확인서 열람·발급: 전월세 계약 전 신청 자격·준비물·방문 수수료",
+      url: "/posts/move-in-household-certificate-before-lease.html",
+      tags: ["내집마련꿀팁", "전입세대확인서", "전입세대열람", "전월세 계약", "방문 신청", "주민센터", "열람 수수료"],
+      status: "live"
+    },
+    {
       title: "국민연금 예상연금액 조회: 가입내역 기반 조회와 모의계산 차이",
       url: "/posts/nps-expected-pension-lookup.html",
       tags: ["돈버는꿀팁", "국민연금", "예상연금액", "가입내역", "납부내역", "모의계산", "연금 조회"],
