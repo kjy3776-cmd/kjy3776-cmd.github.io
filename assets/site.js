@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "국민연금 예상연금액 조회: 가입내역 기반 조회와 모의계산 차이",
+      url: "/posts/nps-expected-pension-lookup.html",
+      tags: ["돈버는꿀팁", "국민연금", "예상연금액", "가입내역", "납부내역", "모의계산", "연금 조회"],
+      status: "live"
+    },
+    {
       title: "주민등록등본 인터넷 발급 방법: 정부24 무료 신청·초본 선택·출력 확인",
       url: "/posts/gov24-resident-registration-copy-online.html",
       tags: ["내집마련꿀팁", "주민등록등본", "주민등록표 등본", "주민등록표 초본", "정부24", "인터넷 발급", "무료 발급"],
