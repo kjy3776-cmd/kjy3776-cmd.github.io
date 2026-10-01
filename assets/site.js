@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "2026년 국가건강검진 대상자 조회: 일반·암검진 확인과 검진기관 찾기",
+      url: "/posts/national-health-checkup-eligibility-lookup.html",
+      tags: ["건강백과", "국가건강검진", "건강검진 대상자", "일반건강검진", "암검진", "검진기관", "국민건강보험공단", "2026"],
+      status: "live"
+    },
+    {
       title: "전입신고와 확정일자 차이: 전월세 세입자가 둘 다 확인해야 하는 이유",
       url: "/posts/move-in-report-fixed-date-difference.html",
       tags: ["내집마련꿀팁", "전입신고", "확정일자", "대항력", "우선변제권", "전월세", "보증금", "이사"],
