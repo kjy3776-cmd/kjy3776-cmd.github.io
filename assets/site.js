@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "국가건강검진 결과 온라인 조회·출력: 공단에서 안 보일 때 확인 순서",
+      url: "/posts/health-checkup-results-online.html",
+      tags: ["건강백과", "국가건강검진", "건강검진 결과", "결과조회", "결과 출력", "국민건강보험공단"],
+      status: "live"
+    },
+    {
       title: "2026년 국가건강검진 대상자 조회: 일반·암검진 확인과 검진기관 찾기",
       url: "/posts/national-health-checkup-eligibility-lookup.html",
       tags: ["건강백과", "국가건강검진", "건강검진 대상자", "일반건강검진", "암검진", "검진기관", "국민건강보험공단", "2026"],
