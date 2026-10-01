@@ -802,6 +802,39 @@ hr {
   border-color: #4489d5;
   text-decoration: none;
 }
+.post-body .guide-action-featured {
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: #eef5ff;
+  border-color: #b8d4f5;
+}
+.post-body .guide-action-featured .guide-action-link {
+  justify-content: space-between;
+  width: 100%;
+  min-height: 52px;
+  color: #fff;
+  background: #1459a6;
+  border-color: #1459a6;
+  text-align: left;
+}
+.post-body .guide-action-featured .guide-action-link::after {
+  content: "→";
+  flex: none;
+  margin-left: .8rem;
+  font-size: 1.2rem;
+}
+.post-body .guide-action-featured .guide-action-link:hover,
+.post-body .guide-action-featured .guide-action-link:focus-visible {
+  color: #fff;
+  background: #0e447f;
+  border-color: #0e447f;
+}
+.post-body .guide-action-note {
+  margin: .1rem 0 0 !important;
+  color: #52657b;
+  font-size: .82rem !important;
+  line-height: 1.55;
+}
 .reading-layout .guide-warning {
   margin: 1.1rem 0 0;
   padding: .85rem 1rem;
