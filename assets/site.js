@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "힐스테이트 안양펠루스 줍줍 5억대? 10월 2일 임의공급 6세대 분양가·청약 조건",
+      url: "/posts/hillstate-anyang-pellus-random-supply-2026.html",
+      tags: ["내집마련꿀팁", "힐스테이트 안양펠루스", "안양동", "줍줍", "임의공급", "무순위", "분양가", "청약홈", "2026940215"],
+      status: "live"
+    },
+    {
       title: "지방세 납세증명서 인터넷 발급: 정부24 무료 신청과 유효기간 확인",
       url: "/posts/local-tax-payment-certificate-online.html",
       tags: ["돈버는꿀팁", "지방세", "지방세 납세증명서", "완납증명", "정부24", "유효기간", "무료 발급"],
