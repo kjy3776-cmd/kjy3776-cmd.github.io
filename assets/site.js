@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "국민건강보험 환급금 조회·신청: 본인부담상한액 초과금과 보험료 환급금 차이",
+      url: "/posts/nhis-refund-lookup-types.html",
+      tags: ["건강백과", "건강보험 환급금", "본인부담상한액 초과금", "보험료 환급금", "국민건강보험공단", "환급금 조회", "환급금 신청"],
+      status: "live"
+    },
+    {
       title: "원천동 광교 A17 자연앤센트레빌 600호 공급 계획: 위치·지분적립형·청약 자격 확인",
       url: "/posts/gwanggyo-a17-centreville-supply-guide.html",
       tags: ["내집마련꿀팁", "광교 A17", "광교 자연앤센트레빌", "원천동", "원천동 633", "지분적립형", "공공분양", "청약 자격", "600호"],
