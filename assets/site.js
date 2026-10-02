@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "지방세 납세증명서 인터넷 발급: 정부24 무료 신청과 유효기간 확인",
+      url: "/posts/local-tax-payment-certificate-online.html",
+      tags: ["돈버는꿀팁", "지방세", "지방세 납세증명서", "완납증명", "정부24", "유효기간", "무료 발급"],
+      status: "live"
+    },
+    {
       title: "건강보험 자격득실확인서 온라인 발급: 정부24·공단 경로와 제출 전 확인",
       url: "/posts/health-insurance-qualification-history-online.html",
       tags: ["건강백과", "건강보험", "자격득실확인서", "정부24", "국민건강보험공단", "온라인 발급", "재직증명서"],
