@@ -374,6 +374,15 @@ hr {
   color: var(--accent);
   margin-bottom: .4rem;
 }
+.post-card .pc-thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1999 / 715;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 0 .75rem;
+}
 .post-card h3 {
   margin: 0 0 .5rem;
   font-size: 1.05rem;
