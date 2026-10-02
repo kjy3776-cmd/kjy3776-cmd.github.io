@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "원천동 광교 A17 자연앤센트레빌 600호 공급 계획: 위치·지분적립형·청약 자격 확인",
+      url: "/posts/gwanggyo-a17-centreville-supply-guide.html",
+      tags: ["내집마련꿀팁", "광교 A17", "광교 자연앤센트레빌", "원천동", "지분적립형", "공공분양", "청약 자격", "600호"],
+      status: "live"
+    },
+    {
       title: "힐스테이트 안양펠루스 줍줍 5억대? 10월 2일 임의공급 6세대 분양가·청약 조건",
       url: "/posts/hillstate-anyang-pellus-random-supply-2026.html",
       tags: ["내집마련꿀팁", "힐스테이트 안양펠루스", "안양동", "줍줍", "임의공급", "무순위", "분양가", "청약홈", "2026940215"],
