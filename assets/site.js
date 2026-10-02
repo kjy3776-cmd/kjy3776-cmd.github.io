@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전월세 계약 전 건축물대장 무료 열람: 정부24에서 용도·위반 표시 확인",
+      url: "/posts/building-register-before-lease-online.html",
+      tags: ["내집마련꿀팁", "건축물대장", "정부24", "무료 열람", "집합건축물대장", "위반건축물", "전월세 계약"],
+      status: "live"
+    },
+    {
       title: "국민건강보험 환급금 3가지 차이와 조회·신청 방법",
       url: "/posts/nhis-refund-lookup-types.html",
       tags: ["건강백과", "건강보험 환급금", "본인부담상한액 초과금", "본인부담금환급금", "보험료 환급금", "국민건강보험공단", "환급금 조회", "환급금 신청"],
