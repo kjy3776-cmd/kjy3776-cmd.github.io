@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전월세 계약 전 확정일자 부여현황 확인: 임대인 동의와 선순위 보증금",
+      url: "/posts/fixed-date-rental-history-before-lease.html",
+      tags: ["내집마련꿀팁", "확정일자 부여현황", "선순위 보증금", "임대인 동의", "전월세 계약"],
+      status: "live"
+    },
+    {
       title: "정부24 전입신고 통보서비스 신청: 세대주·소유자·임대인 자격과 서류",
       url: "/posts/move-in-notification-service-eligibility.html",
       tags: ["내집마련꿀팁", "전입신고 통보서비스", "세대주", "소유자", "임대인", "주소 변경 알림", "정부24"],
