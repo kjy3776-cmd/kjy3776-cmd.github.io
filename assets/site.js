@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "주택 임대차계약 신고 대상·기한·온라인 신청",
+      url: "/posts/rental-contract-report-eligibility-online.html",
+      tags: ["내집마련꿀팁", "임대차 신고", "전월세 신고", "보증금 6천만 원", "월세 30만 원"],
+      status: "live"
+    },
+    {
       title: "전월세 계약 전 확정일자 부여현황 확인: 임대인 동의와 선순위 보증금",
       url: "/posts/fixed-date-rental-history-before-lease.html",
       tags: ["내집마련꿀팁", "확정일자 부여현황", "선순위 보증금", "임대인 동의", "전월세 계약"],
