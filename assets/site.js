@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "정부24 전입신고 통보서비스 신청: 세대주·소유자·임대인 자격과 서류",
+      url: "/posts/move-in-notification-service-eligibility.html",
+      tags: ["내집마련꿀팁", "전입신고 통보서비스", "세대주", "소유자", "임대인", "주소 변경 알림", "정부24"],
+      status: "live"
+    },
+    {
       title: "전월세 임대인 미납국세 열람: 동의 없이 가능한 보증금·신청 기한",
       url: "/posts/unpaid-national-tax-inspection-before-lease.html",
       tags: ["내집마련꿀팁", "미납국세 열람", "전월세 계약", "임대인 동의", "보증금 1천만원", "세무서"],
