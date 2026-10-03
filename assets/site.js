@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전월세 계약 전 임대인 국세 납세증명서 확인: 지방세와 차이·발급 경로",
+      url: "/posts/national-tax-certificate-before-lease.html",
+      tags: ["내집마련꿀팁", "국세 납세증명서", "전월세 계약", "임대인", "정부24", "홈택스"],
+      status: "live"
+    },
+    {
       title: "전월세 계약 전 건축물대장 무료 열람: 정부24에서 용도·위반 표시 확인",
       url: "/posts/building-register-before-lease-online.html",
       tags: ["내집마련꿀팁", "건축물대장", "정부24", "무료 열람", "집합건축물대장", "위반건축물", "전월세 계약"],
