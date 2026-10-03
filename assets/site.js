@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전세계약 전 HUG 안심전세 앱 집주인 정보조회: 임대인 동의·신청 조건",
+      url: "/posts/hug-ansimjeonse-landlord-info-before-contract.html",
+      tags: ["내집마련꿀팁", "HUG", "안심전세", "임대인 정보조회", "전세계약", "집주인 조회"],
+      status: "live"
+    },
+    {
       title: "전월세 계약 전 임대인 국세 납세증명서 확인: 지방세와 차이·발급 경로",
       url: "/posts/national-tax-certificate-before-lease.html",
       tags: ["내집마련꿀팁", "국세 납세증명서", "전월세 계약", "임대인", "정부24", "홈택스"],
