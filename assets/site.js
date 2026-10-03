@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "전월세 임대인 미납국세 열람: 동의 없이 가능한 보증금·신청 기한",
+      url: "/posts/unpaid-national-tax-inspection-before-lease.html",
+      tags: ["내집마련꿀팁", "미납국세 열람", "전월세 계약", "임대인 동의", "보증금 1천만원", "세무서"],
+      status: "live"
+    },
+    {
       title: "전세계약 전 HUG 안심전세 앱 집주인 정보조회: 임대인 동의·신청 조건",
       url: "/posts/hug-ansimjeonse-landlord-info-before-contract.html",
       tags: ["내집마련꿀팁", "HUG", "안심전세", "임대인 정보조회", "전세계약", "집주인 조회"],
