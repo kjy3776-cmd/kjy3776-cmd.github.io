@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "건강보험 자격득실확인서 온라인 발급: 정부24·국민건강보험 경로와 제출 전 확인",
+      url: "/posts/nhis-qualification-history-certificate.html",
+      tags: ["건강백과", "건강보험 자격득실확인서", "정부24", "국민건강보험", "제증명 발급"],
+      status: "live"
+    },
+    {
       title: "지방세 환급금 조회·신청: 위택스와 서울 ETAX에서 확인하는 방법",
       url: "/posts/wetax-local-tax-refund-lookup.html",
       tags: ["돈버는꿀팁", "지방세 환급금", "위택스", "스마트위택스", "서울시 ETAX"],
