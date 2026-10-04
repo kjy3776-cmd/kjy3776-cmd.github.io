@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "출생신고 언제·어디서 하나요? 1개월 기한과 온라인·방문 준비물",
+      url: "/posts/birth-registration-online-or-visit.html",
+      tags: ["생활·행정", "출생신고", "출생증명서", "온라인 출생신고", "전자가족관계등록시스템"],
+      status: "live"
+    },
+    {
       title: "지방세 환급금 조회·신청: 위택스와 서울 ETAX에서 확인하는 방법",
       url: "/posts/wetax-local-tax-refund-lookup.html",
       tags: ["돈버는꿀팁", "지방세 환급금", "위택스", "스마트위택스", "서울시 ETAX"],
