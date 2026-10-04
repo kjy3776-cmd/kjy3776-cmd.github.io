@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "지방세 환급금 조회·신청: 위택스와 서울 ETAX에서 확인하는 방법",
+      url: "/posts/wetax-local-tax-refund-lookup.html",
+      tags: ["돈버는꿀팁", "지방세 환급금", "위택스", "스마트위택스", "서울시 ETAX"],
+      status: "live"
+    },
+    {
       title: "주택 임대차계약 신고 대상·기한·온라인 신청",
       url: "/posts/rental-contract-report-eligibility-online.html",
       tags: ["내집마련꿀팁", "임대차 신고", "전월세 신고", "보증금 6천만 원", "월세 30만 원"],
