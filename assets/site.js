@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "인감증명서 인터넷 발급 가능할까? 일반용·부동산·금융기관 제출 구분",
+      url: "/posts/seal-certificate-online-eligible-purposes.html",
+      tags: ["내집마련꿀팁", "인감증명서", "정부24", "부동산 매도용", "금융기관 제출용"],
+      status: "live"
+    },
+    {
       title: "혼인신고 어디서 하나요? 증인 2명·한쪽만 방문할 때 준비물",
       url: "/posts/marriage-registration-visit-witnesses.html",
       tags: ["생활·행정", "혼인신고", "혼인신고 증인", "한쪽만 혼인신고", "혼인관계증명서"],
