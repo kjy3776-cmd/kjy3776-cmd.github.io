@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "가족관계증명서 인터넷 발급: 일반·상세·특정 선택과 자녀 확인",
+      url: "/posts/family-relationship-certificate-online.html",
+      tags: ["생활·행정", "가족관계증명서", "인터넷 발급", "일반증명서", "상세증명서"],
+      status: "live"
+    },
+    {
       title: "출생신고 언제·어디서 하나요? 1개월 기한과 온라인·방문 준비물",
       url: "/posts/birth-registration-online-or-visit.html",
       tags: ["생활·행정", "출생신고", "출생증명서", "온라인 출생신고", "전자가족관계등록시스템"],
