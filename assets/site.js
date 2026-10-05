@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "혼인신고 어디서 하나요? 증인 2명·한쪽만 방문할 때 준비물",
+      url: "/posts/marriage-registration-visit-witnesses.html",
+      tags: ["생활·행정", "혼인신고", "혼인신고 증인", "한쪽만 혼인신고", "혼인관계증명서"],
+      status: "live"
+    },
+    {
       title: "가족관계증명서 인터넷 발급: 일반·상세·특정 선택과 자녀 확인",
       url: "/posts/family-relationship-certificate-online.html",
       tags: ["생활·행정", "가족관계증명서", "인터넷 발급", "일반증명서", "상세증명서"],
