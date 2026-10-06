@@ -398,34 +398,10 @@
       status: "live"
     },
     {
-      title: "OBS 검은화면 나올 때 고치는 법",
-      url: "/posts/obs-black-screen.html",
-      tags: ["OBS", "검은화면", "방송", "콘텐츠 제작"],
-      status: "planned"
-    },
-    {
-      title: "아이폰 사진 PC로 옮기는 방법",
-      url: "/posts/iphone-photos-to-pc.html",
-      tags: ["아이폰", "사진", "PC", "모바일"],
-      status: "planned"
-    },
-    {
-      title: "캡컷 워터마크 합법적으로 없애기",
-      url: "/posts/capcut-watermark.html",
-      tags: ["캡컷", "워터마크", "콘텐츠 제작"],
-      status: "planned"
-    },
-    {
       title: "윈도우11 와이파이 아이콘 사라짐 복구",
       url: "/posts/win11-wifi-icon.html",
       tags: ["Windows11", "와이파이", "아이콘"],
       status: "live"
-    },
-    {
-      title: "엑셀 VLOOKUP #N/A 오류 해결",
-      url: "/posts/excel-vlookup-na.html",
-      tags: ["Excel", "VLOOKUP", "#N/A", "Office"],
-      status: "planned"
     }
   ];
 
@@ -454,17 +430,12 @@
     }
     box.innerHTML = results
       .map(function (p) {
-        var badge =
-          p.status === "planned"
-            ? ' <span class="badge-soon">예정</span>'
-            : "";
         return (
           '<a href="' +
           p.url +
           '"><strong>' +
           p.title +
           "</strong>" +
-          badge +
           '<span class="sr-tags">' +
           p.tags.slice(0, 4).join(" · ") +
           "</span></a>"
