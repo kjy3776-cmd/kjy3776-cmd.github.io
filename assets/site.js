@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "사망신고 언제까지? 1개월 기한·신고인·방문 준비서류",
+      url: "/posts/death-registration-deadline-documents.html",
+      tags: ["생활·행정", "사망신고", "사망신고 기한", "사망진단서", "가족관계등록"],
+      status: "live"
+    },
+    {
       title: "인감증명서 인터넷 발급 가능할까? 일반용·부동산·금융기관 제출 구분",
       url: "/posts/seal-certificate-online-eligible-purposes.html",
       tags: ["내집마련꿀팁", "인감증명서", "정부24", "부동산 매도용", "금융기관 제출용"],
