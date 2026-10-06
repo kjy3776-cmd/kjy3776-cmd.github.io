@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "상속포기 방법: 3개월 기한·가정법원 신고·서류 확인",
+      url: "/posts/inheritance-renunciation-deadline-court.html",
+      tags: ["생활·행정", "상속포기", "상속포기 방법", "상속포기 3개월", "가정법원"],
+      status: "live"
+    },
+    {
       title: "사망신고 언제까지? 1개월 기한·신고인·방문 준비서류",
       url: "/posts/death-registration-deadline-documents.html",
       tags: ["생활·행정", "사망신고", "사망신고 기한", "사망진단서", "가족관계등록"],
