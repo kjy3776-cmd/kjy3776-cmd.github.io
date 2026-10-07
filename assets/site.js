@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "제적등본·초본 인터넷 발급: 차이와 법원 신청 경로",
+      url: "/posts/removed-family-register-certificate-online.html",
+      tags: ["생활·행정", "제적등본", "제적초본", "제적부", "옛 호적", "인터넷 발급", "전자가족관계등록시스템"],
+      status: "live"
+    },
+    {
       title: "기본증명서 인터넷 발급: 일반·상세 선택과 개명 이력 확인",
       url: "/posts/basic-certificate-online-general-detailed.html",
       tags: ["생활·행정", "기본증명서", "인터넷 발급", "일반증명서", "상세증명서", "개명 이력", "전자가족관계등록시스템"],
