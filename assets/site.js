@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "기본증명서 인터넷 발급: 일반·상세 선택과 개명 이력 확인",
+      url: "/posts/basic-certificate-online-general-detailed.html",
+      tags: ["생활·행정", "기본증명서", "인터넷 발급", "일반증명서", "상세증명서", "개명 이력", "전자가족관계등록시스템"],
+      status: "live"
+    },
+    {
       title: "혼인관계증명서 인터넷 발급: 일반·상세 선택과 이혼 이력 확인",
       url: "/posts/marriage-relationship-certificate-online.html",
       tags: ["생활·행정", "혼인관계증명서", "인터넷 발급", "일반증명서", "상세증명서", "전자가족관계등록시스템"],
