@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "혼인관계증명서 인터넷 발급: 일반·상세 선택과 이혼 이력 확인",
+      url: "/posts/marriage-relationship-certificate-online.html",
+      tags: ["생활·행정", "혼인관계증명서", "인터넷 발급", "일반증명서", "상세증명서", "전자가족관계등록시스템"],
+      status: "live"
+    },
+    {
       title: "건강보험료 납부확인서 온라인 발급: 기간·용도 선택과 출력 확인",
       url: "/posts/nhis-premium-payment-certificate-online.html",
       tags: ["건강백과", "건강보험료", "납부확인서", "건강보험료 납부확인서 발급", "정부24", "국민건강보험공단"],
