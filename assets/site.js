@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "건강보험료 납부확인서 온라인 발급: 기간·용도 선택과 출력 확인",
+      url: "/posts/nhis-premium-payment-certificate-online.html",
+      tags: ["건강백과", "건강보험료", "납부확인서", "건강보험료 납부확인서 발급", "정부24", "국민건강보험공단"],
+      status: "live"
+    },
+    {
       title: "상속포기 방법: 3개월 기한·가정법원 신고·서류 확인",
       url: "/posts/inheritance-renunciation-deadline-court.html",
       tags: ["생활·행정", "상속포기", "상속포기 방법", "상속포기 3개월", "가정법원"],
