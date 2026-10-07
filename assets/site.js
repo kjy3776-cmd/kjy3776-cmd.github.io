@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "양도소득세 신고방법·기한·서류·가산세: 부동산 예정신고부터 확인",
+      url: "/posts/capital-gains-tax-filing-deadline-documents-penalty.html",
+      tags: ["돈버는꿀팁", "양도소득세", "양도소득세 신고방법", "양도소득세 신고기한", "양도소득세 서류", "양도소득세 가산세", "홈택스"],
+      status: "live"
+    },
+    {
       title: "제적등본·초본 인터넷 발급: 차이와 법원 신청 경로",
       url: "/posts/removed-family-register-certificate-online.html",
       tags: ["생활·행정", "제적등본", "제적초본", "제적부", "옛 호적", "인터넷 발급", "전자가족관계등록시스템"],
