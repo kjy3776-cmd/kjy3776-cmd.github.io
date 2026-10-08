@@ -2,6 +2,12 @@
 (function () {
   var POSTS = [
     {
+      title: "건강보험 피부양자 등록 방법: 90일 기준·서류·온라인 신고",
+      url: "/posts/health-insurance-dependent-registration-90-days.html",
+      tags: ["건강백과", "건강보험", "피부양자 등록", "피부양자 자격취득 신고", "90일", "가족관계증명서", "국민건강보험공단"],
+      status: "live"
+    },
+    {
       title: "양도소득세 신고방법·기한·서류·가산세: 부동산 예정신고부터 확인",
       url: "/posts/capital-gains-tax-filing-deadline-documents-penalty.html",
       tags: ["돈버는꿀팁", "양도소득세", "양도소득세 신고방법", "양도소득세 신고기한", "양도소득세 서류", "양도소득세 가산세", "홈택스"],
