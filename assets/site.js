@@ -346,7 +346,7 @@
     if (!body || body.querySelector(".manual-ad")) return;
     var stylesheet = document.createElement("link");
     stylesheet.rel = "stylesheet";
-    stylesheet.href = "/assets/article-ads.css?v=20261008";
+    stylesheet.href = "/assets/article-ads.css?v=20261008-sticky-nav";
     document.head.appendChild(stylesheet);
     function slot(id, sidebar) {
       var box = document.createElement("div");
@@ -373,8 +373,12 @@
     var sidebar = document.querySelector(".reading-sidebar");
     var desktop = window.matchMedia("(min-width: 941px)");
     if (sidebar && desktop.matches) {
-      sidebar.classList.add("has-manual-ad");
-      sidebar.appendChild(slot("7770104338", true));
+      var rail = document.createElement("div");
+      rail.className = "reading-rail";
+      sidebar.parentNode.insertBefore(rail, sidebar);
+      // The ad scrolls away first; only the navigation card remains sticky.
+      rail.appendChild(slot("7770104338", true));
+      rail.appendChild(sidebar);
     }
     // Do not request ads on local previews or inside a hidden mobile sidebar.
     function requestVisibleAds() {
