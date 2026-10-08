@@ -341,12 +341,61 @@
     });
   }
 
+  function enhanceArticleAds() {
+    var body = document.querySelector(".reading-layout .post-body");
+    if (!body || body.querySelector(".manual-ad")) return;
+    var stylesheet = document.createElement("link");
+    stylesheet.rel = "stylesheet";
+    stylesheet.href = "/assets/article-ads.css?v=20261008";
+    document.head.appendChild(stylesheet);
+    function slot(id, sidebar) {
+      var box = document.createElement("div");
+      box.className = "manual-ad" + (sidebar ? " manual-ad-sidebar" : "");
+      box.setAttribute("aria-label", "광고");
+      var label = document.createElement("div");
+      label.className = "manual-ad-label";
+      label.textContent = "광고";
+      box.appendChild(label);
+      var ad = document.createElement("ins");
+      ad.className = "adsbygoogle";
+      ad.style.display = "block";
+      ad.setAttribute("data-ad-client", "ca-pub-1328779882408752");
+      ad.setAttribute("data-ad-slot", id);
+      ad.setAttribute("data-ad-format", "rectangle");
+      ad.setAttribute("data-full-width-responsive", sidebar ? "false" : "true");
+      box.appendChild(ad);
+      return box;
+    }
+    var fourth = Array.prototype.find.call(body.querySelectorAll("h2"), function (h) {
+      return /^4[.)]\s/.test(h.textContent.trim());
+    });
+    if (fourth) fourth.parentNode.insertBefore(slot("1850818389", false), fourth);
+    var sidebar = document.querySelector(".reading-sidebar");
+    var desktop = window.matchMedia("(min-width: 941px)");
+    if (sidebar && desktop.matches) {
+      sidebar.classList.add("has-manual-ad");
+      sidebar.appendChild(slot("7770104338", true));
+    }
+    // Do not request ads on local previews or inside a hidden mobile sidebar.
+    function requestVisibleAds() {
+      if (!/^(www\.)?innerapple\.com$/.test(window.location.hostname)) return;
+      document.querySelectorAll(".manual-ad .adsbygoogle").forEach(function (ad) {
+        if (ad.dataset.manualRequested || ad.getBoundingClientRect().width === 0) return;
+        ad.dataset.manualRequested = "true";
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      });
+    }
+    stylesheet.addEventListener("load", requestVisibleAds);
+    window.addEventListener("resize", requestVisibleAds);
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", function () { init(); enhanceNavigation(); enhanceRelated(); });
+    document.addEventListener("DOMContentLoaded", function () { init(); enhanceNavigation(); enhanceRelated(); enhanceArticleAds(); });
   } else {
     init();
     enhanceNavigation();
     enhanceRelated();
+    enhanceArticleAds();
   }
 
   window.MAKHIM_POSTS = POSTS;

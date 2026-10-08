@@ -1,0 +1,7 @@
+.manual-ad { margin: 2.5rem 0; padding: 12px 0; min-width: 0; clear: both; }
+.manual-ad-label { margin-bottom: 10px; color: #737d8d; font: 12px/1.5 sans-serif; text-align: center; }
+.manual-ad > .adsbygoogle { width: 100%; min-height: 250px; }
+.reading-layout .reading-sidebar.has-manual-ad { position: static; }
+.manual-ad-sidebar { margin: 2rem -8px 0; padding-top: 1.25rem; border-top: 1px solid #e3e8ef; }
+@media (max-width: 940px) { .manual-ad-sidebar { display: none; } }
+@media (max-width: 640px) { .manual-ad { margin: 2rem 0; } }
