@@ -21,6 +21,14 @@
   --header-h: 60px;
 }
 
+/* Topic lists: keep article thumbnails and descriptions. */
+.main:has(.category-intro){max-width:1120px;margin:auto;padding:0 16px}
+.category-intro{display:flex;align-items:center;gap:1.2rem;padding:1.5rem;background:#edf5ff;border:1px solid #d8e7ff;border-radius:22px;margin:1.5rem 0}
+.category-intro h1{margin:.4rem 0;color:#112a59}.category-intro p{margin:0;color:#657791}
+.category-tabs{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.4rem 0}.category-tabs a{padding:.6rem 1rem;border:1px solid #d8e7ff;border-radius:24px;background:white;color:#17477d;text-decoration:none}
+@media(min-width:941px){.home-category-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:639px){.category-intro{padding:1rem;gap:.7rem}.category-intro img{width:56px;height:56px}.category-intro h1{font-size:1.5rem}.category-tabs a{font-size:.85rem}.category-intro+nav+section .post-grid{grid-template-columns:1fr}}
+
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
