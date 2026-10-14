@@ -1,6 +1,6 @@
 /* 꿀TMI — client-side search */
 (function () {
-  var POSTS = [
+  var POSTS = [{"title":"주민등록증 재발급 신청: 정부24 사진·수수료·수령 조건","url":"/posts/resident-id-card-reissue-online.html","tags":["발급·조회","주민등록증","재발급"],"status":"live"},
     {
       title: "건강보험 피부양자 등록 방법: 90일 기준·서류·온라인 신고",
       url: "/posts/health-insurance-dependent-registration-90-days.html",
