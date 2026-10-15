@@ -1,6 +1,6 @@
 /* 꿀TMI — client-side search */
 (function () {
-  var POSTS = [{"title":"주민등록증 재발급 신청: 정부24 사진·수수료·수령 조건","url":"/posts/resident-id-card-reissue-online.html","tags":["발급·조회","주민등록증","재발급"],"status":"live"},
+  var POSTS = [{"title":"소득금액증명 발급: 정부24 무료 신청·귀속연도·신고내역 없음 확인","url":"/posts/income-certificate-online.html","tags":["발급·조회","소득금액증명","재발급"],"status":"live"},{"title":"주민등록증 재발급 신청: 정부24 사진·수수료·수령 조건","url":"/posts/resident-id-card-reissue-online.html","tags":["발급·조회","주민등록증","재발급"],"status":"live"},
     {
       title: "건강보험 피부양자 등록 방법: 90일 기준·서류·온라인 신고",
       url: "/posts/health-insurance-dependent-registration-90-days.html",
