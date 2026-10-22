@@ -1,0 +1,17 @@
+# 2026-10-22 가족관계 영문증명서 신규 발행
+- 한국 시간 신규 5번째, 기존 개선 2편과 별도 집계. 이번 실행 신규 1편.
+- URL: https://www.innerapple.com/posts/english-family-certificate-online.html
+- 기존 국문 가족관계·기본·혼인 증명서와 달리 영문증명서 수록 범위와 발급 조건에 집중. 자녀 미표시, 여권정보, 폐쇄 등록부 제외, 제출처별 추가 요구를 명시.
+- 확인일 2026-10-22. 공식 출처: https://efamily.scourt.go.kr/index.jsp ; https://www.mofa.go.kr/us-ko/brd/m_4480/view.do?page=1&seq=1154222 (수정 2024-10-17) ; https://www.yeongjong.go.kr/main/content/view.do?sn=46 (수정 2026-07-22).
+- 개인 로그인·실제 발급·심사 미실행, 승인 보장 없음.
+- imagegen generation 모드, 참조 없음, 불투명 배경. 이미지 육안 검사 완료.
+- 썸네일: assets/english-family-certificate-thumbnail.png (1672×941)
+- 카드뉴스: assets/english-family-certificate-card-news.png (1536×1024)
+- Thumbnail prompt: Create a polished Korean editorial thumbnail, wide 16:9, navy and pale blue with yellow accent. Large perfectly readable exact Korean title: "가족관계 영문증명서". Subtitle: "수록 범위·발급 조건 확인". A tasteful photorealistic desk with generic blank certificate paper and plain passport-like booklet, no official logos, no personal information, no seals, no other text. High contrast mobile-friendly typography.
+- Card prompt: Create a Korean informational card news graphic, landscape 3:2, clean pale blue white navy design, readable large typography. Exact title "영문증명서 신청 점검". Four numbered panels with exact texts "1 제출 문서 확인", "2 발급대상 확인", "3 영문 표기 대조", "4 제출 조건 확인". Bottom highlighted exact text "자녀 정보는 표시되지 않아요". Simple document, person, letters, checklist illustrations. No other text, no government logo or approval guarantees.
+- 홈·전체·발급조회 카드, 본문 2장, OG/Twitter/JSON-LD 연결.
+- category checker PASS (74 cards, documents49); JS syntax PASS; local href/src/anchors/JSON-LD/encoding checks []; git diff --check PASS (CRLF warnings only).
+- 모바일 IAB 390×844: document scrollWidth375, images310.625px, table310.625px, both images loaded1672/1536; quick jump #steps works; screenshot inspected, horizontal overflow absent.
+- aside CLI absent; no installation. Used available IAB for read-only QA.
+- 광고 aria-label 2개 확인, 광고 설정 변경 없음. CTA 광고 아님 구분. 기존 unrelated untracked excluded.
+- Search Console/AdSense 실적 이번 실행 조회하지 않음. 외부 커뮤니티 게시 없음.
