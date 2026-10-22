@@ -1,0 +1,19 @@
+# 2026-10-22 사업장 4대보험 완납증명서 신규 발행
+- 이번 실행 신규1편, 오늘 신규7편/기존개선2편 별도 집계. 최대10/2 준수.
+- URL https://www.innerapple.com/posts/full-insurance-certificate-business.html
+- 개인 보험료납부확인서·자격득실과 구분되는 사업장 완납 문서. 기존 글 검색 중복 없음(타 글 통칭 완납 언급은 국세/지방세).
+- 확인일2026-10-22 공식자료:
+  - https://si4n.nhis.or.kr/jpca/JpCab00105.do (신청·반영지연·진위확인)
+  - https://si4n.nhis.or.kr/jpca/JpCab00101.do (서비스범위·고객센터)
+  - https://www.nhis.or.kr/static/alim/paper/oldpaper/202202/sub/23.html (2021-10-20 개인사업장 변경 역사공지, 현행 일괄보장하지 않음)
+- 사업장 범위·인증 조건·납부자료 지연·개인사업장 주의 명시. 실제 로그인/조회/납부 미실행, 승인·수익 보장 없음. 미검증 비용/처리기간 단정 없음.
+- imagegen 스킬 built-in generation, 참조 없음, 불투명 배경. 이미지 육안검사 완료.
+- Final assets: assets/full-insurance-certificate-thumbnail.png 1672x941; assets/full-insurance-certificate-card-news.png 1536x1024.
+- Thumbnail prompt: Use case: editorial thumbnail. Wide 16:9 high-contrast Korean website image. Navy white yellow clean realistic small business office desk with generic blank paperwork, laptop and calculator. Large exact Korean title "4대보험 완납증명서" and subtitle "사업장 발급·납부 반영 확인". No other words, no official seal, no private data, no guaranteed approval, opaque background. Mobile readable typography.
+- Card prompt: Use case: infographic-diagram. Landscape 3:2 Korean card news, pale blue white navy yellow. Exact large title "사업장 완납증명서 점검". Four numbered panels exact labels "1 문서 종류 확인", "2 사업장 확인", "3 보험 범위 선택", "4 납부 반영 확인". Footer exact text "납부확인서와는 다른 문서". Generic document office shield calendar icons, no official logos, no personal data, no other text. Large mobile-readable typography, opaque background.
+- 홈/전체/발급조회 카드·본문2장·OG/Twitter/JSON-LD 연결. 공개76/documents51.
+- QA: category checker PASS; node --check assets/site.js PASS; localhref/src/anchors/JSON-LD/encoding checks[]; git diff --check PASS(CRLF warnings).
+- IAB390x844 DOM: width390 scrollWidth375; images/table310.625px; loaded1672/1536; #steps click and #compare/#trouble navigation. Screenshot backend showed scaled desktop-like capture despite mobile DOM; mobile visual capture not asserted. Generated assets directly inspected.
+- 광고설정 변경 없음, desktop ad labels2. 공식 CTA 광고 아님 구분.
+- aside-browser entry read, aside guide unavailable, no installation; IAB fallback QA.
+- Search Console/AdSense 실적 미조회. 외부게시 없음. unrelated draft-assets/promotion log 제외.
