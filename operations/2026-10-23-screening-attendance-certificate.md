@@ -1,0 +1,19 @@
+# 2026-10-23 건강검진 실시확인서 신규 발행
+- 이번 실행 신규1편, KST오늘 신규1/개선1 별도 집계. 최소신규2에는 아직1편 부족, 다음 실행 후보 검토 필요.
+- URL https://www.innerapple.com/posts/screening-attendance-certificate-work.html
+- 기존 결과조회/대상조회와 다른 검색 의도: 직장 제출용 실시확인서 발급. 기존 health 문서에 실시확인서 텍스트 중복 없음.
+- 공식공개자료 확인2026-10-23:
+  - https://www.nhis.or.kr/nhis/index.do 현재 건강모아/나의건강 메뉴, 실시확인서/결과조회/채용대체 서류 구분.
+  - https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpImplementConfirmation.do 개인로그인 연결 확인, 로그인 뒤 개인화면 미실행.
+  - https://iacf.catholic.ac.kr/board/BoardDetail?_menuCd=001100003000&idx=29&noticeYn=N&part=REDO 2025-11-07 공식제출기관 안내. 개인종합검진 기록·증빙 사례로만 사용, 과거기한/전국공통면제 일반화 없음.
+- 개인기록 조회/진단 미실행, 건강·채용·심사승인 보장 없음. 발급비용/기간 미검증 단정 없음.
+- imagegen 스킬 built-in generation, 참조 없음, 불투명 배경. 원문/가독성 육안검사 완료.
+- Final assets assets/screening-attendance-certificate-thumbnail.png1672x941; assets/screening-attendance-certificate-card-news.png1536x1024.
+- Thumbnail prompt: Use case: editorial thumbnail. Wide 16:9 Korean title visual, tasteful photoreal office desk with laptop and generic blank medical checkup document, no personal data or official logos. Navy white pale blue with yellow accent. Huge mobile readable exact title "건강검진 실시확인서", subtitle "직장 제출·결과통보서 구분". No extra text, no diagnostic claims, opaque background.
+- Card prompt: Use case: infographic-diagram. Landscape 3:2 Korean card news. Clean navy pale blue white and yellow four numbered panels. Exact title "직장 제출 서류 점검". Exact panel labels "1 문서명 확인", "2 검진 기록 확인", "3 발급 내용 대조", "4 제출 형식 확인". Footer exact text "결과통보서와는 다른 메뉴". Generic document computer calendar shield icons. No medical measurements, no personal details, no logos, no extra text, opaque background, readable on mobile.
+- 홈/전체/발급조회/본문2장/OG/Twitter/JSON-LD 연결. 공개77/documents52.
+- QA category checker PASS, node--check site.js PASS, localhref/src/anchor/JSON-LD/encoding checks[], gitdiff--check PASS(CRLF warnings).
+- aside-browser 지침/aside guide 확인: 미설치, 설치없이 IAB 사용. 모바일390x844 DOM scrollWidth375, table/images310.625px, imagesloaded1672/1536, #stepsclick, #trouble navigation. Screenshot 본문 가독성 검사, viewport복원.
+- 기존 광고설정 변경없음, 광고label2/공식CTA광고아님. 외부게시 없음, GSC/AdSense 이번실행조회없음.
+- 이전 7f9e502 배포지연 해결 확인: Actions39822218383 completed/success, 개선본문공개HTTP200/추가절 존재. 당일개선1로 집계.
+- unrelated draft-assets와promotion기록 제외. 이미지복사 기본샌드박스거부 후 승인된상승권한으로2장만 저장.
