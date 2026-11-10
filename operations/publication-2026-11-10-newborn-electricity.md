@@ -6,3 +6,5 @@
 - 가로형 이미지 2종 문구/한도/날짜/절차 육안 검수. 실제 신청화면 아님 표시.
 - 공유 reading-layout, 반응형 CSS 정적검수(실기기 렌더 미수행). 홈/전체/돈버는/본문/OG/sitemap 연결.
 - canonical/JSONLD/링크/앵커/광고 구분 검사. 실제 개인 신청/고지서 조회/외부 게시 없음.
+
+- 첫 배포 run 42772745784: build 성공, deploy-pages syncing_files 10분 시간초과. 연결 도구 재실행은 GitHub integration 권한 403으로 불가. SSH로 운영기록 커밋하여 같은 콘텐츠 배포 1회 재시도.
