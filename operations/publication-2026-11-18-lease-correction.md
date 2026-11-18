@@ -8,4 +8,4 @@
 - 홈/전체/주거/본문/OG/sitemap 연결, 기존다른사용자미추적파일 제외.
 
 - 검수: 공식4URL HTTP200, 내부경로·점프·H1·Article·발행일·canonical·OG·목록·sitemap 각1회·PNG1672x941 2장 통과. Chrome 데스크톱741px본문·모바일390px에서349.4px본문, 가로넘침 없음·두이미지로드·광고분리·홈카드 확인. git diff --check 통과. 공개검증은 push 후 별도 실시.
-
+- 배포확인: 45cbced main SSH push 후 신규본문의 고유문구·이미지2장·홈·전체·주거목록·sitemap HTTP200 확인. KST2026-11-18 신규2/10·개선0/2, 신규최소2 충족.
