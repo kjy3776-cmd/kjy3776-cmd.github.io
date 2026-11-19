@@ -301,6 +301,20 @@
   }
 
   function enhanceNavigation() {
+    document.querySelectorAll(".site-header .header-inner").forEach(function (header) {
+      if (header.querySelector(".nav")) return;
+      var nav = document.createElement("nav");
+      nav.className = "nav";
+      nav.setAttribute("aria-label", "주 메뉴");
+      header.appendChild(nav);
+    });
+    document.querySelectorAll(".site-header .nav").forEach(function (nav) {
+      if (nav.querySelector(".search-wrap")) return;
+      var wrap = document.createElement("div");
+      wrap.className = "search-wrap";
+      wrap.innerHTML = '<label class="visually-hidden" for="site-search">사이트 글 검색</label><input type="search" id="site-search" class="search-input" placeholder="글 검색..." autocomplete="off" aria-controls="search-results"><div id="search-results" class="search-results" aria-live="polite"></div>';
+      nav.appendChild(wrap);
+    });
     document.querySelectorAll(".nav").forEach(function (nav) {
       if (nav.querySelector('a[href="/articles.html"]')) return;
       var search = nav.querySelector(".search-wrap");
@@ -318,6 +332,84 @@
       link.textContent = "전체 글";
       footer.appendChild(link);
     });
+  }
+
+  function enhanceContents() {
+    var article = document.querySelector(".post-wrap");
+    var body = article && article.querySelector(".post-body");
+    if (!body) return;
+    var headings = Array.prototype.filter.call(body.querySelectorAll("h2"), function (heading) {
+      return !heading.closest(".toc, .related, .manual-ad");
+    });
+    if (!headings.length) return;
+    article.classList.add("reading-layout");
+    var entries = headings.map(function (heading, index) {
+      var section = heading.closest("section[id]");
+      var target = heading.id ? heading : (section || heading);
+      if (!target.id) {
+        var id = "article-section-" + (index + 1);
+        while (document.getElementById(id)) id += "-heading";
+        target.id = id;
+      }
+      return { id: target.id, title: heading.textContent.trim() };
+    });
+    function links(container, list) {
+      entries.forEach(function (entry) {
+        var link = document.createElement("a");
+        link.href = "#" + entry.id;
+        link.textContent = entry.title;
+        if (list) {
+          var item = document.createElement("li");
+          item.appendChild(link);
+          container.appendChild(item);
+        } else container.appendChild(link);
+      });
+    }
+    if (!article.querySelector(".reading-sidebar")) {
+      var sidebar = document.createElement("aside");
+      sidebar.className = "reading-sidebar";
+      sidebar.setAttribute("aria-label", "본문 목차");
+      var title = document.createElement("h2");
+      title.textContent = "빠른 이동";
+      sidebar.appendChild(title);
+      var nav = document.createElement("nav");
+      nav.setAttribute("aria-label", "본문 목차");
+      links(nav, false);
+      sidebar.appendChild(nav);
+      body.insertAdjacentElement("afterend", sidebar);
+    }
+    if (!body.querySelector(".toc")) {
+      var toc = document.createElement("nav");
+      toc.className = "toc";
+      toc.setAttribute("aria-label", "본문 목차");
+      var label = document.createElement("div");
+      label.className = "toc-title";
+      label.textContent = "목차";
+      toc.appendChild(label);
+      var list = document.createElement("ol");
+      links(list, true);
+      toc.appendChild(list);
+      var firstSection = headings[0];
+      while (firstSection.parentNode !== body) firstSection = firstSection.parentNode;
+      body.insertBefore(toc, firstSection);
+    }
+  }
+
+  function enhanceBackToTop() {
+    if (document.querySelector(".back-to-top")) return;
+    var button = document.createElement("button");
+    button.type = "button";
+    button.className = "back-to-top";
+    button.setAttribute("aria-label", "맨 위로 이동");
+    button.innerHTML = '<span aria-hidden="true">↑</span><span>맨 위로</span>';
+    button.hidden = true;
+    button.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
+    });
+    document.body.appendChild(button);
+    function update() { button.hidden = window.scrollY < 300; }
+    window.addEventListener("scroll", update, { passive: true });
+    update();
   }
 
   function enhanceRelated() {
@@ -395,14 +487,17 @@
     window.addEventListener("resize", requestVisibleAds);
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", function () { init(); enhanceNavigation(); enhanceRelated(); enhanceArticleAds(); });
-  } else {
-    init();
+  function start() {
     enhanceNavigation();
+    init();
+    enhanceContents();
+    enhanceBackToTop();
     enhanceRelated();
     enhanceArticleAds();
   }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else start();
 
   window.MAKHIM_POSTS = POSTS;
 })();
