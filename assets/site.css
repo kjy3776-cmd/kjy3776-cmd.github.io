@@ -607,6 +607,8 @@ hr {
 }
 .err-page h1 { font-size: 4rem; margin: 0; color: var(--accent); }
 .err-page p { color: var(--text-muted); }
+.err-more { text-align: center; margin-top: 1.1rem; font-size: .9rem; font-weight: 700; }
+.err-more a { color: #356bb6; }
 
 /* Footer */
 .site-footer {
