@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+Disallow: /operations/
+Disallow: /README.md
+Disallow: /promotion-
+
 Sitemap: https://www.innerapple.com/sitemap.xml

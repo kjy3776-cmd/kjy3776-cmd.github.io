@@ -16,8 +16,8 @@
 
 imagegen 기본 내장 도구 모드, CLI 미사용. 2장 신규 생성·문구/가독성 육안 검수. 최종 저장:
 
-- assets/university-certificates-thumbnail.png (1672×941)
-- assets/university-certificates-card-news.png (1536×1024)
+- assets/university-certificates-thumbnail.webp (1672×941)
+- assets/university-certificates-card-news.webp (1536×1024)
 
 ### 최종 프롬프트 1
 

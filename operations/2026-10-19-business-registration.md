@@ -13,8 +13,8 @@
 
 ## 이미지 (내장 imagegen)
 
-- assets/business-registration-thumbnail.png 1672×941. 최종 프롬프트: landscape16:9 Korean practical blog thumbnail, bright smallbusiness desk/laptop/blank documents, navy panel, huge white '사업자등록증명', yellow '무료 발급·서류 구분', blue3D document/storefront, no obscured letters, mobilelegible, no identities/numbers/seals/logos/watermark.
-- assets/business-registration-card-news.png 1536×1024. 최종 프롬프트: landscape cardnews lightbluewhite/navy, heading '사업자등록증명 발급 3단계', cards '1 서류명 확인 / 등록증과 증명 구분', '2 사업장 선택 / 사업자번호 정확히', '3 결과 대조 / 상호·소재지 확인', footer '발급 완료가 대출·지원사업 승인을 뜻하지 않습니다', large accurate Korean, blue3D document/laptop/magnifier, safe margins, no official seals/identity/extra text/watermark.
+- assets/business-registration-thumbnail.webp 1672×941. 최종 프롬프트: landscape16:9 Korean practical blog thumbnail, bright smallbusiness desk/laptop/blank documents, navy panel, huge white '사업자등록증명', yellow '무료 발급·서류 구분', blue3D document/storefront, no obscured letters, mobilelegible, no identities/numbers/seals/logos/watermark.
+- assets/business-registration-card-news.webp 1536×1024. 최종 프롬프트: landscape cardnews lightbluewhite/navy, heading '사업자등록증명 발급 3단계', cards '1 서류명 확인 / 등록증과 증명 구분', '2 사업장 선택 / 사업자번호 정확히', '3 결과 대조 / 상호·소재지 확인', footer '발급 완료가 대출·지원사업 승인을 뜻하지 않습니다', large accurate Korean, blue3D document/laptop/magnifier, safe margins, no official seals/identity/extra text/watermark.
 - 두 이미지 한글·대비·구성 직접 시각 검수.
 
 ## 검수·배포

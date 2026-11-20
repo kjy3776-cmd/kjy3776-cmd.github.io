@@ -18,8 +18,8 @@
 
 imagegen 스킬 기본 내장 도구 모드, CLI 미사용. 2장 신규 제작·문구와 가독성 육안 검수. 최종 저장:
 
-- assets/national-tax-payment-history-thumbnail.png (1672×941)
-- assets/national-tax-payment-history-card-news.png (1536×1024)
+- assets/national-tax-payment-history-thumbnail.webp (1672×941)
+- assets/national-tax-payment-history-card-news.webp (1536×1024)
 
 ### 최종 프롬프트 1
 

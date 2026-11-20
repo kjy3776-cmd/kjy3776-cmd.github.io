@@ -15,8 +15,8 @@
 
 내장 imagegen 사용. 생성 후 두 이미지 한글·대비·구성 시각 검수. 최종 경로는 저장소 기준.
 
-- assets/personal-signature-thumbnail.png (1672×941). 최종 프롬프트: Korean administrative guide landscape16:9 thumbnail, bright realistic desk/documents/pen background, navy panel, huge bold white '본인서명사실확인서', yellow '방문·준비물·무료 발급', blue3D document and pen, generous safe margins, mobile readable, no real personal data, seal, logo, watermark, no implication of online issuance.
-- assets/personal-signature-card-news.png (1536×1024). 최종 프롬프트: light blue/white landscape Korean card-news, navy heading '본인서명사실확인서 발급'; three cards '1 제출처 확인 / 용도·필요 항목 확인', '2 본인 방문 / 신분증 지참 후 서명', '3 서류 확인 / 용도·제출처 대조'; footer '대리 발급 불가 · 전자본인서명확인서는 별도 제도', large accurate Korean, polished blue ID/document/pen illustration, no real identity, official seals or watermark.
+- assets/personal-signature-thumbnail.webp (1672×941). 최종 프롬프트: Korean administrative guide landscape16:9 thumbnail, bright realistic desk/documents/pen background, navy panel, huge bold white '본인서명사실확인서', yellow '방문·준비물·무료 발급', blue3D document and pen, generous safe margins, mobile readable, no real personal data, seal, logo, watermark, no implication of online issuance.
+- assets/personal-signature-card-news.webp (1536×1024). 최종 프롬프트: light blue/white landscape Korean card-news, navy heading '본인서명사실확인서 발급'; three cards '1 제출처 확인 / 용도·필요 항목 확인', '2 본인 방문 / 신분증 지참 후 서명', '3 서류 확인 / 용도·제출처 대조'; footer '대리 발급 불가 · 전자본인서명확인서는 별도 제도', large accurate Korean, polished blue ID/document/pen illustration, no real identity, official seals or watermark.
 
 ## 검수·배포
 

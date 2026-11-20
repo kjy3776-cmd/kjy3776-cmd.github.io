@@ -6,7 +6,7 @@
 - 편집 판단 각5점: 의도5/수요3/경쟁대응3/중복회피5/묶음기여5/수익가능성2/검증4. 검색 실측 아님.
 - 공식 확인(2026-10-16): 금천구 https://m.geumcheon.go.kr/portal/cvplMngView.do?key=149&tnCvplMngNumber=120369 , 서울 중구 https://www.junggu.seoul.kr/minwon/content.do?cid=731541907&cmsid=14027&mode=view , 정부24 변경 이력 https://www.gov.kr/portal/ntcItm/103148?Mcode=10006&pageIndex=3 . 금천구 편람 온라인 무료·대리 불가, 두 지역 방문800원·위임 서류 확인. 지역별 비용을 전국 공통으로 단정하지 않음. 2024년 공지는 항목명 이력에만 사용.
 - 전국·특정지역 제외·미과세 발급이 모든 온라인 경로에서 가능하다고 단정하지 않음. 제출기관·담당 지방세 부서 확인 경로 안내. 조회 결과 없음으로 무주택·지원 자격 보장하지 않음. 실제 개인 발급 미수행.
-- imagegen 내장 도구 이미지2장 생성·한글 육안 검수. assets/local-tax-itemized-thumbnail.png 1672×941, assets/local-tax-itemized-card-news.png 1536×1024. 합계 약3MB. 본문 카드뉴스·목록 lazy loading, 크기 지정. 본문·홈·전체·분류·OG/twitter 연결.
+- imagegen 내장 도구 이미지2장 생성·한글 육안 검수. assets/local-tax-itemized-thumbnail.webp 1672×941, assets/local-tax-itemized-card-news.webp 1536×1024. 합계 약3MB. 본문 카드뉴스·목록 lazy loading, 크기 지정. 본문·홈·전체·분류·OG/twitter 연결.
 - 프롬프트1: 밝은 책상 사진, 계산기·노트북·3D집/문서, 남색 패널 위 흰색 ‘지방세 세목별’ 노란색 ‘과세증명 발급’, 큰 글자, 개인 정보·공식 인장 없음. 원본 exec-17aa0fab-bf28-44fd-8ce6-c19fe97d7601.png.
 - 프롬프트2: ‘과세증명 신청 전 확인’, ‘1 과세지역 / 2 과세기간 / 3 필요한 세목’, ‘조회 결과 없음 ≠ 무주택 확정’, 파란 3D 아이콘. 원본 exec-90a35b3a-e3f3-4fb2-8aaa-77386891f790.png.
 - 검수: 카테고리42개 카드의 고유성·분류·목적지·이미지·canonical, 로컬 링크·JSON-LD·검색/목록/사이트맵 단일등록·JS문법·git diff --check 통과. 내장 브라우저 데스크톱·390×844 모바일 확인, scrollWidth375 <= innerWidth390. 이미지 naturalWidth1672/1536 확인. 공식 행동 버튼 광고 구분, 기존 광고 삭제 없음. Aside 미설치로 내장 브라우저 사용.

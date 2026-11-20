@@ -11,7 +11,7 @@
 ## 이미지
 
 - imagegen 스킬의 기본 내장 도구, 신규 생성 2회, 불투명 배경. 참조 이미지 없음. 두 결과 육안 검수 완료.
-- 저장: assets/nps-benefit-payment-thumbnail.png (1672×941), assets/nps-benefit-payment-card-news.png (1536×1024).
+- 저장: assets/nps-benefit-payment-thumbnail.webp (1672×941), assets/nps-benefit-payment-card-news.webp (1536×1024).
 - 썸네일 프롬프트: Use case: ads-marketing. Asset type: Korean editorial website thumbnail, wide16:9. Clean navy white pale blue with yellow accents, generic document and calendar on realistic home desk. Large mobile-readable exact title "국민연금 수급증명" and subtitle "지급내역·발급·서류 구분". No extra text, official logos, seals, real personal data or monetary figures. Opaque background.
 - 카드뉴스 프롬프트: Use case: infographic-diagram. Asset type: landscape3:2 Korean editorial card news. Clean navy pale blue white yellow, four panels with generic document calendar printer checklist icons. Exact title "수급증명 발급 전 점검". Exact four labels "1 문서명 확인", "2 기간 대조", "3 발급 결과 확인", "4 제출 조건 점검". Footer "연금 청구와는 별개". Large mobile-readable type. No extra text, real identifiers, official seals, monetary figures. Opaque background.
 

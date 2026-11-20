@@ -14,8 +14,8 @@
 
 imagegen 스킬 기본 내장 도구 모드로 생성한 후 아래 프로젝트 경로에 복사·시각 검수.
 
-- assets/near-poverty-confirmation-certificate-thumbnail.png (1672×941)
-- assets/near-poverty-confirmation-certificate-card-news.png (1536×1024)
+- assets/near-poverty-confirmation-certificate-thumbnail.webp (1672×941)
+- assets/near-poverty-confirmation-certificate-card-news.webp (1536×1024)
 
 썸네일 프롬프트:
 

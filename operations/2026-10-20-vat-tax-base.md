@@ -16,8 +16,8 @@
 ## 이미지
 
 imagegen 스킬 기본 내장 생성 도구 모드, 2장 개별 신규 생성. CLI 미사용. 한글·내용·여백 육안 검수. 최종 저장:
-- assets/vat-tax-base-certificate-thumbnail.png (1672×941)
-- assets/vat-tax-base-certificate-card-news.png (1536×1024)
+- assets/vat-tax-base-certificate-thumbnail.webp (1672×941)
+- assets/vat-tax-base-certificate-card-news.webp (1536×1024)
 
 ### 최종 프롬프트 1
 

@@ -6,7 +6,7 @@
 - 편집 판단 각5점: 의도5, 수요3, 경쟁대응3, 중복회피5, 묶음기여4, 수익가능성2, 검증4. 검색 실측 아님.
 - 공식 검증: 정부24 https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000024 (내용확인 2026-06-01) 및 논산시 https://support.nonsan.go.kr/kor/html/sub01/0104.html?GotoPage=2&mode=V&no=0a3bd242d8b53d205d69a3bef4ba0386 (2025-02-19). 본인·대리·위임 서류와 방문 수수료 교차확인, 인터넷 무료 및 신청내역은 정부24 확인. 개인 실제 발급 미수행, 결과 보장 없음.
 - 당일 기록 반영 시점·PDF·모바일 제출을 일률적으로 보장하지 않음. 법무부 검색 결과·법령의 상세 반영 규칙은 본문에 확정 수치로 쓰지 않음.
-- imagegen 내장 도구로 별도 2장 생성 및 육안 검수. assets/immigration-fact-thumbnail.png 1672×941, assets/immigration-fact-card-news.png 1536×1024. 썸네일·본문·목록·OG/twitter 연결. 이미지 합계 약3.2MB, 본문 카드뉴스와 목록 lazy loading 및 크기 지정.
+- imagegen 내장 도구로 별도 2장 생성 및 육안 검수. assets/immigration-fact-thumbnail.webp 1672×941, assets/immigration-fact-card-news.webp 1536×1024. 썸네일·본문·목록·OG/twitter 연결. 이미지 합계 약3.2MB, 본문 카드뉴스와 목록 lazy loading 및 크기 지정.
 - 썸네일 프롬프트: 책상·노트북·여행 책자·비행기 모형 사진, 남색 패널 위 흰색 ‘출입국사실증명’, 노란색 ‘발급·기간·기록 확인’, 모바일 가독성, 개인정보·공식 인장 없음.
 - 카드뉴스 프롬프트: ‘출입국사실증명 발급 전 확인’, ‘1 조회 기간 / 2 본인 신청 / 3 기록 확인’, ‘기간과 제출 형식을 먼저 확인하세요’, 파란 3D 아이콘. 원본 exec-2a3c6d41-1518-4158-a9e1-3aec9674d2bf.png / exec-27e4b389-8fe2-4673-9455-a0b5ddf47ddb.png.
 - 검사: node --check site.js, check-categories 41개 고유 카드·목적지·이미지·canonical, 로컬 링크·JSON-LD·목록/검색/사이트맵 단일 등록·템플릿 잔여문구·git diff --check 통과.

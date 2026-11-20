@@ -8,7 +8,7 @@
   - https://iacf.catholic.ac.kr/board/BoardDetail?_menuCd=001100003000&idx=29&noticeYn=N&part=REDO 2025-11-07 공식제출기관 안내. 개인종합검진 기록·증빙 사례로만 사용, 과거기한/전국공통면제 일반화 없음.
 - 개인기록 조회/진단 미실행, 건강·채용·심사승인 보장 없음. 발급비용/기간 미검증 단정 없음.
 - imagegen 스킬 built-in generation, 참조 없음, 불투명 배경. 원문/가독성 육안검사 완료.
-- Final assets assets/screening-attendance-certificate-thumbnail.png1672x941; assets/screening-attendance-certificate-card-news.png1536x1024.
+- Final assets assets/screening-attendance-certificate-thumbnail.webp1672x941; assets/screening-attendance-certificate-card-news.webp1536x1024.
 - Thumbnail prompt: Use case: editorial thumbnail. Wide 16:9 Korean title visual, tasteful photoreal office desk with laptop and generic blank medical checkup document, no personal data or official logos. Navy white pale blue with yellow accent. Huge mobile readable exact title "건강검진 실시확인서", subtitle "직장 제출·결과통보서 구분". No extra text, no diagnostic claims, opaque background.
 - Card prompt: Use case: infographic-diagram. Landscape 3:2 Korean card news. Clean navy pale blue white and yellow four numbered panels. Exact title "직장 제출 서류 점검". Exact panel labels "1 문서명 확인", "2 검진 기록 확인", "3 발급 내용 대조", "4 제출 형식 확인". Footer exact text "결과통보서와는 다른 메뉴". Generic document computer calendar shield icons. No medical measurements, no personal details, no logos, no extra text, opaque background, readable on mobile.
 - 홈/전체/발급조회/본문2장/OG/Twitter/JSON-LD 연결. 공개77/documents52.

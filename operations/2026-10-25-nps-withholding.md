@@ -11,7 +11,7 @@
 ## 이미지
 
 - imagegen 스킬 기본 내장 도구, 신규2회, 불투명 배경, 참조없음. 두 이미지 육안 검수.
-- assets/nps-pension-withholding-thumbnail.png (1672×941), assets/nps-pension-withholding-card-news.png (1536×1024).
+- assets/nps-pension-withholding-thumbnail.webp (1672×941), assets/nps-pension-withholding-card-news.webp (1536×1024).
 - 썸네일 프롬프트: Use case: ads-marketing. Wide16:9 Korean editorial website thumbnail. Navy white yellow, realistic generic tax paper calendar and laptop on home desk. Huge mobile-readable exact title "연금소득 원천징수영수증" and subtitle "발급·연도·자료 확인". No other text, official seals, actual personal identifiers, monetary figures, or refund promises. Opaque background.
 - 카드뉴스 프롬프트: Use case: infographic-diagram. Landscape3:2 Korean card news. Navy white pale blue yellow four panels, generic document calendar printer checklist icons. Exact title "연금소득 영수증 발급 점검". Four exact labels "1 문서명 확인", "2 대상 연도 대조", "3 증명서 발급", "4 제출 조건 확인". Footer "발급과 세금 신고는 별개". Large mobile-readable typography. No extra text, official seals, personal information or monetary figures. Opaque background.
 

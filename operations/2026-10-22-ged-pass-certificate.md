@@ -8,8 +8,8 @@
 
 ## 이미지
 imagegen 스킬 built-in generate, 각각 신규 생성. 직접 시각확인, 설명용.
-- assets/ged-pass-certificate-thumbnail.png 1672×941
-- assets/ged-pass-certificate-card-news.png 1536×1024
+- assets/ged-pass-certificate-thumbnail.webp 1672×941
+- assets/ged-pass-certificate-card-news.webp 1536×1024
 - 원본 .codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/exec-1957bcf3-02ac-48c2-a7d1-13e3ca37b5a8.png 및 exec-f7e6cbe6-5b47-4af6-92c0-a2712a6853ad.png 유지.
 
 ### Thumbnail prompt

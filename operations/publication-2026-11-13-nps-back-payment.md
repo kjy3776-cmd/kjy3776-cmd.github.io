@@ -2,7 +2,7 @@
 
 - 오늘 신규1/10, 개선0/2. 납부예외 글은 현재 납부를 쉬는 신청, 이번 글은 과거 인정기간의 추납 신청으로 의도 구분. 기존 글을 훼손하지 않음.
 - 2026-11-13 공식 자료 3개 대조: NPS getOHAF0047M0.do?menuId=MN24001116, getOHAC0000M5.do?menuId=MN24001072, getOHAF0097M0.do. 현재자격·최대119개월·대상기간 예외·혼인관계 상세/전부공개/제출용·추가증빙·접수후 담당확인·최대60회 이자·신청월기준소득월액/납부기한월보험료율 확인. 개인 인증·내역조회·서류전송·납부 없음.
-- 이미지 built-in imagegen 2종 1672×941 검수: assets/nps-back-payment-thumbnail.png, assets/nps-back-payment-steps.png. 원본 exec-d0bd9a73-47ba-43a6-bcd2-0ce3c6db1280.png / exec-24f64be0-e5ca-44b7-bf22-798ce9d78d7b.png.
+- 이미지 built-in imagegen 2종 1672×941 검수: assets/nps-back-payment-thumbnail.webp, assets/nps-back-payment-steps.webp. 원본 exec-d0bd9a73-47ba-43a6-bcd2-0ce3c6db1280.png / exec-24f64be0-e5ca-44b7-bf22-798ce9d78d7b.png.
 - 프롬프트1: Korean editorial website title thumbnail, landscape16:9, cream/navy/orange, exact 국민연금 추납 신청 / 대상 · 서류 · 납부 확인. Large mobile-readable type, calendar/document/checkmark; no official logo/seal/promises.
 - 프롬프트2: Korean landscape infographic, cream/navy/teal, exact 추납 신청 3단계 / 가입·기간 확인 / 서류·납부방법 / 고지·반영 확인. Three large cards and arrows, no fineprint/official logo/promises.
 

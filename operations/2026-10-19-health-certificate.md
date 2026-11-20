@@ -13,8 +13,8 @@
 
 ## 이미지 (내장 imagegen)
 
-- assets/health-certificate-thumbnail.png (1672×941). 최종 프롬프트: landscape16:9 Korean health administrative thumbnail brightdesk/blank medical document/laptop, navy panel huge white '보건증 인터넷 발급', yellow '조회 안 될 때 확인', blue3D document/magnifier, mobilelegible safe margins, no actual results/patientdata/seals/logos/watermark.
-- assets/health-certificate-card-news.png (1536×1024). 최종 프롬프트: lightbluewhite/navy landscape Korean cardnews heading '보건증 온라인 발급 전 확인'; cards '1 검사기관 확인 / 공공보건기관 내역', '2 결과 확인 / 정상 판정 후 조회', '3 본인인증 / 증명 문서 발급'; footer '조회되지 않으면 검사기관에 먼저 문의하세요', large accurate Korean, blue3D clinic/document/laptop, no healthdata/identity/seals/logos/watermark.
+- assets/health-certificate-thumbnail.webp (1672×941). 최종 프롬프트: landscape16:9 Korean health administrative thumbnail brightdesk/blank medical document/laptop, navy panel huge white '보건증 인터넷 발급', yellow '조회 안 될 때 확인', blue3D document/magnifier, mobilelegible safe margins, no actual results/patientdata/seals/logos/watermark.
+- assets/health-certificate-card-news.webp (1536×1024). 최종 프롬프트: lightbluewhite/navy landscape Korean cardnews heading '보건증 온라인 발급 전 확인'; cards '1 검사기관 확인 / 공공보건기관 내역', '2 결과 확인 / 정상 판정 후 조회', '3 본인인증 / 증명 문서 발급'; footer '조회되지 않으면 검사기관에 먼저 문의하세요', large accurate Korean, blue3D clinic/document/laptop, no healthdata/identity/seals/logos/watermark.
 - 두 이미지 한글·대비·내용 시각 확인.
 
 ## 검수·배포

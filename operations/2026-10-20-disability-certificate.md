@@ -16,8 +16,8 @@
 
 imagegen 스킬의 기본 내장 도구 모드로 각각 신규 생성하고 한글·내용을 육안 검수함. CLI 미사용.
 
-- 최종 썸네일: assets/disability-certificate-thumbnail.png (1672×941)
-- 최종 본문 카드: assets/disability-certificate-card-news.png (1536×1024)
+- 최종 썸네일: assets/disability-certificate-thumbnail.webp (1672×941)
+- 최종 본문 카드: assets/disability-certificate-card-news.webp (1536×1024)
 - 홈·전체 글·발급조회 목록·검색 데이터·본문·OG/Twitter 및 sitemap 연결.
 
 ### 최종 프롬프트 1

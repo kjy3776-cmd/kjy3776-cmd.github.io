@@ -5,7 +5,7 @@
 - 복지부 정책/2026 카드뉴스, 부안군 현행 안내, 2026-10-22 권익위 심의 의견, 2026-10-02 신청주의 개정(공포 후3개월 시행)을 대조. 소급·자동지급·개인 수령 보장 배제.
 - 표준 reading-layout·공유 CSS 유지. 신규 본문/이미지/홈/전체/돈버는/OG/sitemap 연결. 개인 신청·외부 게시 없음.
 - 이미지 도구: built-in imagegen. 프롬프트1: 가로형 '부모급여 신청', '60일 기한 · 보육료 차액 · 지급 확인', 부모·아기·달력의 큰 글씨 일러스트. 프롬프트2: 출생일·접수일 → 현금·보육료 유형 → 신청완료·지급내역의 가로형 3단계. 공식 화면·실제 정보·보장 표현 없음.
-- 이미지 저장: assets/parental-benefit-thumbnail.png, assets/parental-benefit-steps.png.
+- 이미지 저장: assets/parental-benefit-thumbnail.webp, assets/parental-benefit-steps.webp.
 
 - 이미지2종 1672×941, 한국어 문구·절차 육안 검수. canonical/H1/JSONLD 날짜/내부 링크·앵커/목록·sitemap 단일 연결/광고 구분 검사 통과. 공식 외부6곳 HTTP200 확인.
 - 로컬 브라우저 390px 모바일 렌더 DOM 검사: 본문349px, 문서 가로넘침 없음, 두 이미지 정상 로드·폭310px. 모바일에서 메뉴/사이드바 반응형 전환 확인. 화면 캡처는 CDP 타임아웃으로 육안 렌더 검수 미수행; 이미지 원본 육안+DOM 치수 검수로 범위 명시. viewport 원복 및 임시 탭 정리.

@@ -17,8 +17,8 @@
 ## 이미지
 
 - imagegen으로 별도 2장 생성, 한글·구성 육안 검수.
-- assets/nps-membership-thumbnail.png: 1672×941. 프롬프트: 밝은 업무 책상 사진, 파란 3D 문서, 남색 패널 위 흰색 ‘국민연금 가입증명서’와 노란색 ‘발급·출력·전자문서’, 모바일 가독성, 공식 로고·개인정보 없음.
-- assets/nps-membership-card-news.png: 1536×1024. 프롬프트: ‘가입증명서 발급 전 확인’, ‘1 문서 종류 / 2 수령 방식 / 3 제출처 확인’, 출력·팩스·전자증명서 3D 아이콘, 설명용 카드뉴스.
+- assets/nps-membership-thumbnail.webp: 1672×941. 프롬프트: 밝은 업무 책상 사진, 파란 3D 문서, 남색 패널 위 흰색 ‘국민연금 가입증명서’와 노란색 ‘발급·출력·전자문서’, 모바일 가독성, 공식 로고·개인정보 없음.
+- assets/nps-membership-card-news.webp: 1536×1024. 프롬프트: ‘가입증명서 발급 전 확인’, ‘1 문서 종류 / 2 수령 방식 / 3 제출처 확인’, 출력·팩스·전자증명서 3D 아이콘, 설명용 카드뉴스.
 - 원본: generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/exec-335e9cb6-b885-4df4-ab69-2542a734c033.png 및 exec-5bbcac11-2e8f-46f9-b23b-9dc3046f4214.png.
 - 본문 figure 2장, 썸네일 홈·전체·분류 카드 및 OG/twitter 연결. alt·실제 크기 일치.
 

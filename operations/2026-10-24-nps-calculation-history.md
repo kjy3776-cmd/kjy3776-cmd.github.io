@@ -11,7 +11,7 @@
 ## 이미지 생성
 
 - imagegen 기본 내장 도구로 불투명 신규 이미지 2장 생성. 참조 이미지 없음. 두 결과 육안 검수 완료.
-- assets/nps-calculation-history-thumbnail.png (1672×941), assets/nps-calculation-history-card-news.png (1536×1024).
+- assets/nps-calculation-history-thumbnail.webp (1672×941), assets/nps-calculation-history-card-news.webp (1536×1024).
 - 썸네일 프롬프트: Use case: ads-marketing. Wide16:9 Korean website title thumbnail. Realistic home desk with generic paper calendar calculator, navy blue white and yellow editorial style. Huge mobile readable exact title "연금산정용 가입내역" and subtitle "발급·납부 반영·미납 표시". No other text, official seal, real identifiers, money amounts, or approval promises. Opaque background.
 - 카드뉴스 프롬프트: Use case: infographic-diagram. Landscape3:2 Korean website card news. Navy white pale blue yellow four panels with generic document calendar checklist printer icons. Exact title "가입내역 확인서 점검". Four exact labels "1 문서명 확인", "2 납부일 대조", "3 표시 항목 확인", "4 제출 조건 점검". Footer "미납 표시는 납부기한도 확인". Large mobile readable text, no other text, official seals, personal data, monetary amounts. Opaque background.
 

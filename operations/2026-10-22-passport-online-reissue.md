@@ -8,8 +8,8 @@
 
 ## 이미지
 imagegen 스킬 built-in generate, 2개 개별 신규 생성 및 직접 시각 검수. 설명용. 카드 사유 예시가 모두 온라인 대상이 아님을 캡션에 명시.
-- assets/passport-online-reissue-thumbnail.png 1672×941
-- assets/passport-online-reissue-card-news.png 1536×1024
+- assets/passport-online-reissue-thumbnail.webp 1672×941
+- assets/passport-online-reissue-card-news.webp 1536×1024
 - 원본 .codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/exec-004a7bda-1270-4b4d-97a1-b86024fc92ce.png 및 exec-74b2d007-552e-4831-b434-c25bb521c3a8.png 유지.
 
 ### Thumbnail prompt

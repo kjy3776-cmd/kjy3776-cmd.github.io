@@ -8,7 +8,7 @@
   - https://www.nhis.or.kr/static/alim/paper/oldpaper/202202/sub/23.html (2021-10-20 개인사업장 변경 역사공지, 현행 일괄보장하지 않음)
 - 사업장 범위·인증 조건·납부자료 지연·개인사업장 주의 명시. 실제 로그인/조회/납부 미실행, 승인·수익 보장 없음. 미검증 비용/처리기간 단정 없음.
 - imagegen 스킬 built-in generation, 참조 없음, 불투명 배경. 이미지 육안검사 완료.
-- Final assets: assets/full-insurance-certificate-thumbnail.png 1672x941; assets/full-insurance-certificate-card-news.png 1536x1024.
+- Final assets: assets/full-insurance-certificate-thumbnail.webp 1672x941; assets/full-insurance-certificate-card-news.webp 1536x1024.
 - Thumbnail prompt: Use case: editorial thumbnail. Wide 16:9 high-contrast Korean website image. Navy white yellow clean realistic small business office desk with generic blank paperwork, laptop and calculator. Large exact Korean title "4대보험 완납증명서" and subtitle "사업장 발급·납부 반영 확인". No other words, no official seal, no private data, no guaranteed approval, opaque background. Mobile readable typography.
 - Card prompt: Use case: infographic-diagram. Landscape 3:2 Korean card news, pale blue white navy yellow. Exact large title "사업장 완납증명서 점검". Four numbered panels exact labels "1 문서 종류 확인", "2 사업장 확인", "3 보험 범위 선택", "4 납부 반영 확인". Footer exact text "납부확인서와는 다른 문서". Generic document office shield calendar icons, no official logos, no personal data, no other text. Large mobile-readable typography, opaque background.
 - 홈/전체/발급조회 카드·본문2장·OG/Twitter/JSON-LD 연결. 공개76/documents51.

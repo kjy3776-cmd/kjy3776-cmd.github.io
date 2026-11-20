@@ -15,8 +15,8 @@
 ## 이미지
 
 imagegen 스킬, 기본 내장 생성 도구 모드. 두 장 개별 신규 생성, 한글·여백 육안 확인. CLI 미사용. 최종 저장:
-- assets/school-graduation-certificate-thumbnail.png (1672×941)
-- assets/school-graduation-certificate-card-news.png (1536×1024)
+- assets/school-graduation-certificate-thumbnail.webp (1672×941)
+- assets/school-graduation-certificate-card-news.webp (1536×1024)
 
 ### 최종 프롬프트 1
 

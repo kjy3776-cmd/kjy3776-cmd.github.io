@@ -10,8 +10,8 @@
 
 imagegen 스킬 built-in generate 모드, 2개 각각 신규 생성. 파일 직접 시각 확인 완료, 실물 증명서가 아닌 설명용.
 
-- assets/no-tax-return-fact-certificate-thumbnail.png 1672×941
-- assets/no-tax-return-fact-certificate-card-news.png 1536×1024
+- assets/no-tax-return-fact-certificate-thumbnail.webp 1672×941
+- assets/no-tax-return-fact-certificate-card-news.webp 1536×1024
 - 원본 .codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/exec-cf1e83cb-d905-4431-b08b-c15025611f2f.png 및 exec-a8528e1b-0aaa-4fdf-b6dc-c5ee44acf700.png 유지.
 
 ### Thumbnail prompt

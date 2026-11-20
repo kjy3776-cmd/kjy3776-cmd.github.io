@@ -17,8 +17,8 @@
 
 imagegen 기본 내장 도구 모드, CLI 미사용. 2장 새로 제작, 한글·여백·가독성 육안 검수. 최종 저장:
 
-- assets/business-suspension-certificate-thumbnail.png (1672×941)
-- assets/business-suspension-certificate-card-news.png (1536×1024)
+- assets/business-suspension-certificate-thumbnail.webp (1672×941)
+- assets/business-suspension-certificate-card-news.webp (1536×1024)
 
 ### 최종 프롬프트 1
 

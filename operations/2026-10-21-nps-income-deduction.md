@@ -14,8 +14,8 @@
 
 imagegen 스킬 기본 내장 도구 모드 사용, 프로젝트 경로로 복사해 시각 검수.
 
-- assets/nps-income-deduction-payment-certificate-thumbnail.png (1672×941)
-- assets/nps-income-deduction-payment-certificate-card-news.png (1536×1024)
+- assets/nps-income-deduction-payment-certificate-thumbnail.webp (1672×941)
+- assets/nps-income-deduction-payment-certificate-card-news.webp (1536×1024)
 
 썸네일 프롬프트:
 

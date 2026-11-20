@@ -10,7 +10,7 @@
 - Thumbnail prompt: Use case infographic-diagram. Korean editorial wide16:9, cream teal navy school books receipt illustration, large mobile text 교육비 납입증명서 / 학교·납입 연도·발급 경로 확인. No official seals/logos/fake document or extra text.
 - Card prompt: infographic-diagram landscape3:2 cream navy teal, enormous mobile type, school/calendar/receipt icons. 교육비 증명 발급 체크 / 1 학교와 연도 확인 / 2 본인 신청·대리 서류 / 3 납입 내역 점검 / 유치원 증명은 무인발급 불가. No official seals/logos/extra text.
 - Source folder C:/Users/Administrator/.codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/
-- exec-d8040bd9-2278-4f8d-ac74-84f01b213cef.png -> assets/school-education-payment-thumbnail.png 1672x941
-- exec-ceb013c2-1df0-4c85-9a6b-0b95ce8cb70e.png -> assets/school-education-payment-card-news.png 1536x1024
+- exec-d8040bd9-2278-4f8d-ac74-84f01b213cef.png -> assets/school-education-payment-thumbnail.webp 1672x941
+- exec-ceb013c2-1df0-4c85-9a6b-0b95ce8cb70e.png -> assets/school-education-payment-card-news.webp 1536x1024
 - 홈/전체/카테고리/본문/OG/검색/sitemap 연결. 정적 링크·앵커·JSONLD·canonical·이미지 검사 통과.
 - 외부 게시 없음. Search Console/AdSense 실제 수치 미조회, 추정치 없음.

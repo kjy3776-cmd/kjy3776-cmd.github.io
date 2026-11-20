@@ -15,8 +15,8 @@
 
 ## 이미지 (내장 imagegen 사용)
 
-- assets/vehicle-register-thumbnail.png (1672×941). 최종 프롬프트: Korean administrative guide landscape16:9 blog thumbnail, bright realistic desk/car key/blank papers, large navy panel, huge white '자동차등록원부', yellow '갑·을 무료 발급', small polished blue3D car and document, do not obscure any letters, generous margins/mobile readable, no realplate/personal info/government seal/logo/watermark.
-- assets/vehicle-register-card-news.png (1536×1024). 최종 프롬프트: Korean landscape cardnews lightbluewhite/navy, heading '자동차등록원부 확인 3단계', cards '1 차량 확인 / 등록번호·소유자 대조', '2 갑·을 구분 / 압류·저당 사항 확인', '3 결과 확인 / 불일치는 등록관청 문의', footer '원부만으로 차량 상태·거래 안전을 보장하지 않습니다', large accurate Korean, blue3D car/document/magnifier, no actual identities/seals/logo/watermark.
+- assets/vehicle-register-thumbnail.webp (1672×941). 최종 프롬프트: Korean administrative guide landscape16:9 blog thumbnail, bright realistic desk/car key/blank papers, large navy panel, huge white '자동차등록원부', yellow '갑·을 무료 발급', small polished blue3D car and document, do not obscure any letters, generous margins/mobile readable, no realplate/personal info/government seal/logo/watermark.
+- assets/vehicle-register-card-news.webp (1536×1024). 최종 프롬프트: Korean landscape cardnews lightbluewhite/navy, heading '자동차등록원부 확인 3단계', cards '1 차량 확인 / 등록번호·소유자 대조', '2 갑·을 구분 / 압류·저당 사항 확인', '3 결과 확인 / 불일치는 등록관청 문의', footer '원부만으로 차량 상태·거래 안전을 보장하지 않습니다', large accurate Korean, blue3D car/document/magnifier, no actual identities/seals/logo/watermark.
 - 두 이미지 원본과 최종 에셋의 한글·대비·여백 시각 검수.
 
 ## 검수·배포

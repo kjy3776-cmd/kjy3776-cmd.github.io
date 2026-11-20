@@ -9,7 +9,7 @@
 - Thumbnail prompt: infographic-diagram wide16:9 cream royal blue navy school folder illustration. Mobile large text 학교생활기록부 발급 / 학교·졸업 연도·제출용 확인. No official seals/logos/fake document/extra text.
 - Card prompt: infographic-diagram landscape3:2 cream blue navy. Huge text 생활기록부 발급 전 확인 / 1 학교·졸업 연도 / 2 제출용 종류 / 3 기록·수령 형식 / 조회되지 않으면 학교에 문의. Simple school/calendar/folder icons, no official seals/logos/extra text.
 - Original folder C:/Users/Administrator/.codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/
-- exec-bf0c6f6e-3253-4ba3-bdd3-64b759bd1b2d.png -> assets/school-record-thumbnail.png 1672x941
-- exec-b3d58dba-1789-47bb-9263-1d1900fde863.png -> assets/school-record-card-news.png 1536x1024
+- exec-bf0c6f6e-3253-4ba3-bdd3-64b759bd1b2d.png -> assets/school-record-thumbnail.webp 1672x941
+- exec-b3d58dba-1789-47bb-9263-1d1900fde863.png -> assets/school-record-card-news.webp 1536x1024
 - 홈/전체/카테고리/본문/OG/검색목록/sitemap 연결. 내부링크·앵커·JSONLD·canonical·이미지·중복 검사 통과.
 - Search Console/AdSense 실제치 미확보. 외부 게시 없음.

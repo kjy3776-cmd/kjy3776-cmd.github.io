@@ -8,8 +8,8 @@
 
 ## 이미지
 imagegen 스킬 built-in generate 모드로 각각 신규 생성, 직접 시각 확인. 설명용.
-- assets/business-registration-fact-thumbnail.png 1672×941
-- assets/business-registration-fact-card-news.png 1536×1024
+- assets/business-registration-fact-thumbnail.webp 1672×941
+- assets/business-registration-fact-card-news.webp 1536×1024
 - 원본 .codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/exec-acbe9c12-6fab-4537-a232-e28060dbaa93.png 및 exec-7604df26-2edd-4531-b869-90178922515e.png 유지.
 
 ### Thumbnail prompt

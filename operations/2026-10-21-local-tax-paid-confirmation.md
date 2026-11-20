@@ -10,8 +10,8 @@
 ## 이미지
 
 - imagegen 스킬, built-in generate 모드, 신규 각각 1회. 실물 공문서가 아닌 설명용. 생성물 시각 확인 완료.
-- assets/local-tax-paid-confirmation-thumbnail.png (1672×941)
-- assets/local-tax-paid-confirmation-card-news.png (1536×1024)
+- assets/local-tax-paid-confirmation-thumbnail.webp (1672×941)
+- assets/local-tax-paid-confirmation-card-news.webp (1536×1024)
 - 원본은 .codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/exec-226c2718-6863-4623-8089-4a5e18c43b16.png 및 exec-8a698704-801b-46a9-8a27-35e7c622227b.png 유지.
 
 ### Thumbnail prompt

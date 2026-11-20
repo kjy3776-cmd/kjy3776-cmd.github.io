@@ -9,7 +9,7 @@
 - Thumbnail prompt: infographic-diagram wide16:9 cream teal navy school document folder illustration. Huge mobile text 제적·정원외관리 증명서 / 학교급·학적·발급 경로 확인. No official seals/logos/fake official documents/extra text.
 - Card prompt: infographic-diagram landscape3:2 cream teal navy huge text 증명서 신청 전 확인 / 1 고교 제적 / 2 초·중 정원외관리 / 3 제출처 조건 확인 / 온라인 대리 신청 불가. School/folder/calendar icons, no official seals/logos/extra text.
 - Source C:/Users/Administrator/.codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/
-- exec-b115431a-6122-432e-b7a8-dc482ba509d9.png -> assets/school-removal-thumbnail.png 1672x941
-- exec-359436cc-c7b0-436f-a2ad-2f3862c094ee.png -> assets/school-removal-card-news.png 1536x1024
+- exec-b115431a-6122-432e-b7a8-dc482ba509d9.png -> assets/school-removal-thumbnail.webp 1672x941
+- exec-359436cc-c7b0-436f-a2ad-2f3862c094ee.png -> assets/school-removal-card-news.webp 1536x1024
 - 홈/전체/카테고리/본문/OG/검색/sitemap 연결, 내부링크/앵커/JSONLD/이미지/canonical 검사 통과.
 - 실제 GSC/AdSense 지표 미확보. 외부 게시 없음.

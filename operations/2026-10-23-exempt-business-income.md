@@ -24,8 +24,8 @@
 ## 이미지 생성 기록
 
 - imagegen 스킬, 신규 생성 2회, opaque background, 참조 이미지 없음.
-- 썸네일: assets/exempt-business-income-thumbnail.png (1672×941)
-- 카드뉴스: assets/exempt-business-income-card-news.png (1536×1024)
+- 썸네일: assets/exempt-business-income-thumbnail.webp (1672×941)
+- 카드뉴스: assets/exempt-business-income-card-news.webp (1536×1024)
 - 두 이미지 육안 검수 완료. 실제 증명서·개인 식별정보·공식 인장 사용 없음.
 - 썸네일 프롬프트: Use case: editorial thumbnail, wide16:9 Korean website. Navy white yellow realistic small business desk with laptop calculator generic blank tax papers. Huge mobile-readable exact title "면세사업자 수입금액증명". Subtitle "무료 발급·기간·서류 확인". No official seals, no real identifiers or amounts, no extra text, no approval promise. Opaque background.
 - 카드뉴스 프롬프트: Use case: infographic-diagram, landscape3:2 Korean card news. Navy pale blue white yellow clean readable typography. Exact title "수입금액증명 신청 점검". Four numbered panels exact labels "1 사업자 유형 확인", "2 사업장·기간 대조", "3 신청 결과 확인", "4 제출 서류 점검". Footer exact text "과세표준증명과는 다른 문서". Generic business document calendar checklist icons, no official logos or personal data, no extra text. Opaque background.

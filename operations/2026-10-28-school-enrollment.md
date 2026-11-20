@@ -8,7 +8,7 @@
 - Thumbnail prompt: Use case infographic-diagram. Wide 16:9 navy cream school stationery illustration. Large exact text 초·중·고 재학증명서; subtitle 본인 신청 · 방문 발급 확인. Mobile-readable, school/document icons, no seals/logos/fake document.
 - Card prompt: landscape cream navy mint. Exact title 재학증명서 발급 전 확인; panels 1 본인 온라인 신청, 2 대리 신청은 서류 확인, 3 학교·제출 조건 점검; footer 인터넷 발급 무료 · 방문 비용은 기관 확인. Large typography, no official seals/logos.
 - Generated source folder: C:/Users/Administrator/.codex/generated_images/01a0c2c4-7ad9-7fc2-82ae-217ce417395c/
-- Thumbnail source exec-90a34637-c6b8-419a-9db3-682df69dbf28.png -> assets/school-enrollment-thumbnail.png (1672x941).
-- Card source exec-aa87523f-d27d-4a7a-b4ae-01469ad9227a.png -> assets/school-enrollment-card-news.png (1536x1024).
+- Thumbnail source exec-90a34637-c6b8-419a-9db3-682df69dbf28.png -> assets/school-enrollment-thumbnail.webp (1672x941).
+- Card source exec-aa87523f-d27d-4a7a-b4ae-01469ad9227a.png -> assets/school-enrollment-card-news.webp (1536x1024).
 - 홈·전체·발급조회 카테고리·본문·OG·검색목록·sitemap 연결. 정적 링크/이미지/앵커/JSONLD/canonical 검사 통과.
 - GSC Wizard 구독 만료 조회불가, AdSense 실제치 미확보. 외부 게시 없음.

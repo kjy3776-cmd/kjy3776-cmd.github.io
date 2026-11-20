@@ -17,8 +17,8 @@
 
 imagegen 스킬 기본 내장 도구 모드, 2장 신규 생성. CLI 미사용. 한글·여백·가독성 육안 검사. 최종 저장 경로:
 
-- assets/cadastral-map-thumbnail.png (1672×941)
-- assets/cadastral-map-card-news.png (1536×1024)
+- assets/cadastral-map-thumbnail.webp (1672×941)
+- assets/cadastral-map-card-news.webp (1536×1024)
 
 ### 최종 프롬프트 1
 

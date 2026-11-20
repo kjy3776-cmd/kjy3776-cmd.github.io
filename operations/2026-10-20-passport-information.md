@@ -16,8 +16,8 @@
 ## 이미지
 
 imagegen 스킬의 기본 내장 생성 도구 모드로 두 장 개별 생성. CLI 미사용. 한글·내용·여백 육안 확인. 최종 저장:
-- assets/passport-information-certificate-thumbnail.png (1672×941)
-- assets/passport-information-certificate-card-news.png (1536×1024)
+- assets/passport-information-certificate-thumbnail.webp (1672×941)
+- assets/passport-information-certificate-card-news.webp (1536×1024)
 
 ### 최종 프롬프트 1
 

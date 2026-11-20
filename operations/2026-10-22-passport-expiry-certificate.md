@@ -9,7 +9,7 @@
   - https://www.busan.go.kr/minwon/tmpassport0112 (사우디 목적 예외 사례, 검색 색인 본문 확인; 직접 fetch timeout)
 - 대상: 효력 상실 사실 증명 요청자. 국문/영문, 온라인 본인인증, 무료/방문비용 구분, 대리서류 기관확인, 특수목적 사진 예외, 제출 형식 명시. 개인 로그인·실제 발급 미실행. 여행 가능·수리·환급·승인 보장 없음.
 - imagegen 스킬 built-in generation, 참조 없음, 불투명 배경. 이미지 원문·가독성 육안 검사.
-- 최종 이미지 경로: assets/passport-expiry-certificate-thumbnail.png (1672×941), assets/passport-expiry-certificate-card-news.png (1536×1024)
+- 최종 이미지 경로: assets/passport-expiry-certificate-thumbnail.webp (1672×941), assets/passport-expiry-certificate-card-news.webp (1536×1024)
 - Thumbnail prompt: Use case: editorial thumbnail. Wide 16:9 Korean website title image. Photorealistic desk, plain navy passport-like closed booklet, generic blank paper, subtle calendar motif. Navy white pale-blue and yellow accents, high-contrast enormous mobile-readable Korean exact title "여권 실효확인서" and subtitle "국문·영문 발급과 서류 확인". No extra text, no official seal, no real passport identifiers, no claim of travel validity or approval. Opaque background.
 - Card prompt: Use case: infographic-diagram. Landscape 3:2 Korean card-news graphic, navy pale blue white and yellow, large readable clean typography. Exact title "실효확인서 신청 전 점검". Four numbered illustrated panels exact labels "1 문서 용도 확인", "2 국문·영문 선택", "3 신청 경로 확인", "4 발급 내용 대조". Bottom exact caution "여권 재발급과는 다른 서비스". Generic document, language, computer, checklist icons. No extra text, no real personal information, no official seals. Opaque background.
 - 홈/전체/발급조회 카드·본문2장·OG/Twitter/JSON-LD 연결. 공개 카드75/documents50.

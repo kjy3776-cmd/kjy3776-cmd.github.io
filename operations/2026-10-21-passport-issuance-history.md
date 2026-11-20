@@ -14,8 +14,8 @@
 
 imagegen 스킬의 기본 내장 도구 모드 사용. 생성 후 아래 프로젝트 경로로 복사하고 시각 검수.
 
-- assets/passport-issuance-history-certificate-thumbnail.png
-- assets/passport-issuance-history-certificate-card-news.png
+- assets/passport-issuance-history-certificate-thumbnail.webp
+- assets/passport-issuance-history-certificate-card-news.webp
 
 썸네일 프롬프트:
 
