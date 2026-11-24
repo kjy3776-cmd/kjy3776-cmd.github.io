@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#4a3222">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="robots" content="noindex, nofollow">
+<title>꿀TMI 숲 사무실</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg">
+<link rel="apple-touch-icon" href="/icon.svg">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="leaf">🌲</span><b>꿀TMI 숲 사무실</b></div>
+  <nav class="staff-chips" id="staffChips" aria-label="직원"></nav>
+  <div class="top-right">
+    <span class="usage" id="usage" title="Claude 사용량 (5시간 / 7일)">Claude –</span>
+    <button class="tbtn" id="btnGuide" title="모든 직원이 참고하는 작업 가이드">📒<span>가이드</span></button>
+    <button class="tbtn" id="btnNotify" title="알림 설정">🔔<span>알림</span></button>
+    <button class="tbtn" id="btnConnect" title="휴대폰·다른 컴퓨터에서 접속">📱<span>기기 연결</span></button>
+    <time class="clock" id="clock"></time>
+  </div>
+</header>
+
+<main class="office" id="office">
+  <aside class="board" id="board" aria-label="작업 보드">
+    <div class="board-head">
+      <b>작업 보드</b>
+      <div>
+        <button class="ibtn" id="btnBoardBig" title="보드 크게 보기">⤢</button>
+        <button class="ibtn" id="btnBoardHide" title="보드 접기">«</button>
+      </div>
+    </div>
+    <div class="board-cols" id="boardCols"></div>
+    <div class="resizer" data-target="board"></div>
+  </aside>
+  <button class="board-show" id="btnBoardShow" title="작업 보드 펼치기">» 보드</button>
+
+  <section class="forest-wrap" id="forestWrap">
+    <div class="forest" id="forest">
+      <canvas id="bg" aria-hidden="true"></canvas>
+      <div id="staffLayer"></div>
+    </div>
+    <p class="hint" id="hint">직원을 누르면 채팅창이 열려요. 큰 일은 편집장 <b>솔이</b>에게 맡기면 팀원에게 나눠 줘요.</p>
+  </section>
+
+  <aside class="chat" id="chat" aria-label="채팅" hidden>
+    <div class="resizer left" data-target="chat"></div>
+    <header class="chat-head" id="chatHead">
+      <canvas class="avatar" id="chatAvatar" width="20" height="20"></canvas>
+      <div class="who"><b id="chatName"></b><small id="chatStatus"></small></div>
+      <button class="ibtn light" id="btnChatMax" title="최대화">⤢</button>
+      <button class="ibtn light" id="btnChatClose" title="닫기">✕</button>
+    </header>
+    <button class="folder-line" id="btnFolder" title="작업 폴더 바꾸기">📁 <span id="folderPath"></span></button>
+    <div class="messages" id="messages"></div>
+    <form class="composer" id="composer">
+      <div class="attach-list" id="attachList"></div>
+      <textarea id="input" rows="3" placeholder="일을 적어 주세요. (Enter 보내기, Shift+Enter 줄바꿈)"></textarea>
+      <div class="composer-row">
+        <label class="ibtn file" title="파일 첨부">📎<input type="file" id="fileInput" multiple hidden></label>
+        <div class="seg" role="radiogroup" aria-label="진행 방식">
+          <button type="button" class="on" data-mode="final">바로 완성</button>
+          <button type="button" data-mode="draft">시안 먼저</button>
+        </div>
+        <span class="grow"></span>
+        <button type="button" class="ghost" id="btnNewChat" title="새 대화 시작 (이전 대화는 보관)">새 대화</button>
+        <button type="button" class="danger" id="btnStop" hidden>중지</button>
+        <button type="submit" class="primary">보내기</button>
+      </div>
+    </form>
+  </aside>
+</main>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true">
+    <header><b id="modalTitle"></b><button class="ibtn" id="modalClose" aria-label="닫기">✕</button></header>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+<div class="lightbox" id="lightbox" hidden><button class="lb-prev" aria-label="이전">‹</button><figure id="lbFig"></figure><button class="lb-next" aria-label="다음">›</button></div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="/scene.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

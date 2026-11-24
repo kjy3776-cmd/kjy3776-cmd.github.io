@@ -1,0 +1,9 @@
+{
+  "name": "꿀TMI 숲 사무실",
+  "short_name": "숲 사무실",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2c3d25",
+  "theme_color": "#4a3222",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
